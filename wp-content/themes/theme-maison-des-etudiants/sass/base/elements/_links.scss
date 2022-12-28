@@ -1,0 +1,36 @@
+a {
+	// Couleurs
+	color: $color__link;
+	// Font
+	text-transform: uppercase;
+	font-weight: $font-weight-bold;
+	line-height: 33px;
+	// Soulignement
+	text-decoration-line: underline;
+	text-decoration-style: "solid";
+	text-decoration-color: $color__link;
+	text-decoration-thickness: 10px;
+	transition: .5s ease;
+
+	&:visited {
+		color: $color__link-visited;
+		text-decoration-color: $color__link-visited;
+	}
+
+	&:hover,
+	&:focus,
+	&:active {
+		color: $color__link-hover;
+		text-decoration-color: $color__link-hover;
+	}
+
+	&:focus {
+		outline: thin dotted;
+	}
+
+	&:hover,
+	&:active {
+		letter-spacing: 1px;
+		outline: 0;
+	}
+}

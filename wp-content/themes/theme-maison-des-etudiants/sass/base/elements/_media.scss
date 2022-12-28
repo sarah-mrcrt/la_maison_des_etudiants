@@ -1,0 +1,22 @@
+/* Make sure embeds and iframes fit their containers. */
+embed,
+iframe,
+object {
+	max-width: 100%;
+}
+
+img,
+source,
+svg {
+	object-fit: cover;
+	max-width: 100%;
+	width: 100%; // Make sure images are scaled correctly.
+	max-height: 100%;
+	height: auto; // Adhere to container width.
+	height: 100%; 
+	vertical-align: middle;
+}
+
+figure {
+	margin: 0; // Extra wide images within figure tags don't overflow the content area.
+}

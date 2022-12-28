@@ -1,0 +1,69 @@
+// HTML to Contact form 7 : https://cf7.ciphercoin.com/
+
+form {
+    padding: 3rem;
+
+    @include responsive("sm-phone") {
+        padding: inherit;
+    }
+}
+
+label {
+    font-weight: $font-weight-semibold;
+}
+
+input,
+select,
+textarea {
+    // Couleurs
+    background-color: $color__background-body;
+    color: $color__text-input;
+    // Taille
+    width: 100%;
+    // Marges
+    padding: 10px;
+    margin-bottom: 1rem;
+
+    // Bordure
+    border: 5px solid black;
+    border-left: 5px solid transparent;
+    border-right: 5px transparent;
+    border-top: 5px solid transparent;
+
+    &:focus {
+        color: $color__text-input-focus;
+        outline: none;
+        border: 5px solid black;
+    }
+}
+
+::placeholder {
+    color: #8C8C8C;
+}
+
+/**************************** Textarea */
+textarea {
+    resize: none;
+    width: 100%;
+    height: 100px;
+}
+
+/* Firefox */
+textarea {
+    scrollbar-width: thin;
+    scrollbar-color: #000000 #A0EBD8;
+}
+
+/* Chrome, Edge and Safari */
+textarea::-webkit-scrollbar {
+    width: 13px;
+    width: 13px;
+}
+
+textarea::-webkit-scrollbar-track {
+    background-color: #8C8C8C;
+}
+
+textarea::-webkit-scrollbar-thumb {
+    background-color: #000000;
+}

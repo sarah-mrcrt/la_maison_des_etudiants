@@ -1,0 +1,22 @@
+button,
+input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+    // Border
+    border: solid .5rem $black;
+    // Couleur
+    background: $black;
+    color: $white;
+    // Font
+    text-transform: uppercase;
+    font-weight: $font-weight-bold;
+    // Marges
+    padding: 0.6em 1em 0.4em;
+
+    &:active,
+    &:focus,
+    &:hover {
+        background-color: $white;
+        color: $black;
+    }
+}

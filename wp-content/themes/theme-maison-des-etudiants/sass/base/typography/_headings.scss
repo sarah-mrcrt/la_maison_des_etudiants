@@ -1,0 +1,61 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    clear: both;
+}
+
+h1 {
+    // Font
+    font-size: clamp(2.75rem, 6vw, 3.5rem);
+    // Couleurs
+    color: initial;
+    background-color: initial;
+    // Marges
+    margin: 0;
+
+    //-------------------------
+    // Responsive
+    //-------------------------
+    @include responsive("md-tablet") {
+        font-size: 2rem;
+        margin: inherit;
+        display: block;
+    }
+}
+
+h2 {
+    // Font
+    font-weight: $font-weight-black;
+    font-size: clamp(1.75rem, 3vw, 3.1rem);
+    text-transform: uppercase;
+    // Marges
+    padding: 20px;
+    margin: 3rem 0;
+    // Couleurs
+    color: $color__background-body;
+    background: $color__text-main;
+    // Position
+    height: 100%;
+    display: table;
+    // Transforme
+    @extend .rotate;
+
+    //-------------------------
+    // Responsive
+    //-------------------------
+    @include responsive("sm-phone") {
+        display: block;
+        text-align: center;
+        transform: inherit;
+        margin-bottom: 1rem;
+    }
+}
+
+h3 {
+    font-size: clamp(1.5rem, 1.7vw, 2rem);
+    margin-bottom: 1rem;
+    text-transform: uppercase;
+}

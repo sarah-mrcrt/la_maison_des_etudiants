@@ -1,0 +1,77 @@
+#exposition {
+    h2 {
+        // Couleurs
+        border: solid .7rem black;
+        color: $color__text-main;
+        background-color: inherit;
+    }
+
+    p,
+    img {
+        @extend .rotate;
+        text-transform: uppercase;
+    }
+
+    div {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+
+        p {
+            width: 55%;
+        }
+    }
+
+    div:first-child {
+        p {
+            margin-top: 3rem;
+        }
+    }
+
+    div:nth-of-type(2) {
+        margin-top: 4rem;
+
+        figure {
+            width: 40%;
+            // Transform
+            -webkit-transform: translate(20%, -15%);
+            -ms-transform: translate(20%, -15%);
+            transform: translate(20%, -15%);
+        }
+    }
+
+    //-------------------------
+    // Responsive
+    //-------------------------
+    @include responsive("lg-desktop") {
+        div {
+            display: block;
+
+            p {
+                width: 100%;
+            }
+        }
+
+        img {
+            display: none;
+        }
+
+        div:nth-of-type(2) {
+            margin-top: 1rem;
+        }
+    }
+
+    @include responsive("md-desktop") {
+
+        p,
+        img {
+            -webkit-transform: inherit;
+            -ms-transform: inherit;
+            transform: inherit;
+        }
+    }
+
+    @include responsive("sm-phone") {
+        text-align: center;
+    }
+}

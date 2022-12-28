@@ -1,0 +1,135 @@
+.artistes {
+    div {
+        // Grid
+        display: -ms-grid;
+        display: grid;
+        -ms-grid-columns: (1fr)[2];
+        grid-template-columns: repeat(2, 1fr);
+        row-gap: 10px;
+
+        article {
+            // Flex
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-orient: vertical;
+            -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+            flex-direction: column;
+
+            &:nth-child(odd) {
+                border-right: solid 2px black;
+            }
+
+            hr {
+                width: 97%;
+                justify-items: end;
+                @extend .centered;
+            }
+
+            figure {
+                // Flex
+                display: -ms-flexbox;
+                display: flex;
+                -webkit-box-align: center;
+                -ms-flex-align: center;
+                align-items: center;
+                gap: 1vw;
+                // Taille
+                width: 100%;
+
+                img {
+                    margin: .9rem;
+                    // Taille
+                    width: 200px;
+                    height: 200px;
+                }
+
+                figcaption {
+                    margin-right: 1rem;
+
+                    p.description {
+                        color: $color__link-hover;
+                    }
+
+                    dl.place {
+                        margin-top: 1rem;
+                        font-size: 1rem;
+                        // Flex
+                        display: -webkit-inline-box;
+                        display: -ms-inline-flexbox;
+                        display: inline-flex;
+                        -webkit-box-align: end;
+                        -ms-flex-align: end;
+                        align-items: flex-end;
+                    }
+                }
+
+            }
+        }
+    }
+
+    //-------------------------
+    // Responsive
+    //-------------------------
+    @include responsive("lg-desktop") {
+        div {
+            article {
+                figure img {
+                    width: 160px;
+                }
+            }
+        }
+    }
+
+    @include responsive("md-desktop") {
+        div {
+            -ms-grid-columns: (1fr)[1];
+            grid-template-columns: repeat(1, 1fr);
+
+            article {
+                &:nth-child(odd) {
+                    border-right: inherit;
+                }
+
+                figure img {
+                    width: 400px;
+                }
+            }
+        }
+    }
+
+    @include responsive("md-tablet") {
+        div {
+            article {
+                figure img {
+                    width: 200px;
+                }
+            }
+        }
+    }
+
+    @include responsive("sm-phone") {
+        div {
+            article {
+                hr {
+                    display: none;
+                }
+
+                figure {
+                    -webkit-box-orient: vertical;
+                    -webkit-box-direction: normal;
+                    -ms-flex-direction: column;
+                    flex-direction: column;
+                    text-align: center;
+
+                    figcaption {
+                        dl.place {
+                            margin-top: 0;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

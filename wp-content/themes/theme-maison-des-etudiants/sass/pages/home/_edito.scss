@@ -1,0 +1,71 @@
+#edito {
+    // Marges "speciales"
+    margin-top: -3rem;
+    margin-bottom: 20rem;
+
+    p {
+        width: 80%;
+        @extend .centered;
+        text-transform: uppercase;
+        font-size: 2.5rem;
+        font-weight: $font-weight-base;
+    }
+
+    figure {
+        // Position
+        position: absolute;
+        bottom: -10rem;
+        // Flex
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+
+        img {
+            @extend .blend-mode-difference;
+
+            &:nth-of-type(2) {
+                position: absolute;
+                right: 0;
+                bottom: -10rem;
+
+            }
+        }
+    }
+
+    //-------------------------
+    // Responsive
+    //-------------------------
+    @include responsive("lg-desktop") {
+        // Marges "speciales"
+        margin-top: initial;
+        margin-bottom: 15rem;
+
+        p {
+            font-size: 1.5rem;
+            width: 100%;
+        }
+
+        figure {
+            bottom: -8rem;
+
+            img:nth-of-type(2) {
+                bottom: -5rem;
+            }
+        }
+    }
+
+    @include responsive("sm-phone") {
+        // Marges "speciales"
+        margin-bottom: initial;
+
+        p {
+            text-align: center;
+        }
+
+        figure {
+            img {
+                display: none;
+            }
+        }
+    }
+}

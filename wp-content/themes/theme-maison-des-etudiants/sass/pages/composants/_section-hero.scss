@@ -1,0 +1,52 @@
+.section-hero {
+    // Police
+    font-size: 1.7rem;
+    // Marges
+    padding-top: inherit;
+    // Taille
+    max-height: 100vh;
+    overflow: hidden;
+    // Container
+    width: inherit;
+
+    img {
+        height: 100vh;
+    }
+
+    figcaption {
+        // Marges
+        padding: 3rem 6rem;
+        // Taille
+        max-width: 50vw;
+        // Position
+        position: absolute;
+        bottom: 0;
+        // Couleurs
+        background: -webkit-gradient(linear, left bottom, left top, from(rgba(243, 239, 227, 1)), to(rgba(243, 239, 227, 0.92)));
+        background: -o-linear-gradient(bottom, rgba(243, 239, 227, 1) 0%, rgba(243, 239, 227, 0.92) 100%);
+        background: linear-gradient(0deg, rgba(243, 239, 227, 1) 0%, rgba(243, 239, 227, 0.92) 100%);
+    }
+.bloc {position: absolute;}
+    //-------------------------
+    // Responsive
+    //-------------------------
+    @include responsive("md-desktop") {
+        figcaption {
+            max-width: 80vh;
+        }
+    }
+
+    @include responsive("md-tablet") {
+        figcaption {
+            text-align: center;
+            max-width: 100vw;
+            width: 100%;
+        }
+    }
+
+    @include responsive("sm-phone") {
+        figcaption {
+            padding: 3rem 0rem;
+        }
+    }
+}

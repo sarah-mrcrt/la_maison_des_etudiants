@@ -1,0 +1,13 @@
+// IMPORT
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;800;900&display=swap');
+
+// FAMILY
+$font__main: "Inter", Roboto, Oxygen-Sans, "Helvetica Neue", sans-serif;
+$font__line-height-body: 1.5;
+
+// WEIGHT
+$font-weight-light: 300 !default;
+$font-weight-base: 400 !default; // 'normal'
+$font-weight-semibold: 600 !default;
+$font-weight-bold: 700 !default;
+$font-weight-black: 900 !default;

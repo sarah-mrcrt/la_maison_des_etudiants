@@ -1,0 +1,10 @@
+main {
+    max-width: 100vw;
+}
+
+section {
+    @extend .container;
+    position: relative;
+    margin-bottom: 6vw;
+    padding-bottom: 3vw;
+}
