@@ -55,6 +55,9 @@ footer {
                     }
                 }
             }
+			div.contact			{a:hover {
+			letter-spacing: 0;
+				} }
         }
     }
 
@@ -85,15 +88,13 @@ footer {
         // Rognage
         clip-path: polygon(0 19%, 100% 9%, 100% 100%, 0% 100%);
 
-        a {
+        li {            margin-bottom: 1rem;
+
+			a {
             color: $color__background-body;
             text-decoration-color: $color__background-body;
-            margin-bottom: 1rem;
-			&:hover {
-			letter-spacing: 0;
-	}
         }
-    }
+		}}
 
     //-------------------------
     // Responsive

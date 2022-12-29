@@ -626,7 +626,7 @@ textarea::-webkit-scrollbar-thumb {
 # Layouts
 --------------------------------------------------------------*/
 /*************** Menu ordinateur ***************/
-header.header {
+header.site-header {
   position: fixed;
   z-index: 10;
   top: 2%;
@@ -639,22 +639,22 @@ header.header {
   display: flex;
   align-items: center;
   justify-content: space-between; }
-  header.header h1 {
+  header.site-header h1 {
     font-size: 1rem;
     width: 20%;
     color: #F3EFE3;
     border-right: 6px solid #F3EFE3; }
-    header.header h1 a {
+    header.site-header h1 a {
       color: #F3EFE3; }
-  header.header nav {
+  header.site-header nav {
     width: 90%; }
-  header.header nav ul {
+  header.site-header nav ul {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     margin-left: 3rem;
     transition: all 0.5s ease; }
-    header.header nav ul a {
+    header.site-header nav ul a {
       color: #F3EFE3;
       text-decoration: none; }
 
@@ -717,6 +717,8 @@ footer div.flex {
           footer div.flex article div ul li a {
             color: #000000;
             text-decoration: none; }
+    footer div.flex article div.contact a:hover {
+      letter-spacing: 0; }
 footer .sites-info {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -738,12 +740,11 @@ footer .sites-info {
   padding-top: 13rem;
   margin-top: -10rem;
   clip-path: polygon(0 19%, 100% 9%, 100% 100%, 0% 100%); }
-  footer .sites-info a {
-    color: #F3EFE3;
-    text-decoration-color: #F3EFE3;
+  footer .sites-info li {
     margin-bottom: 1rem; }
-    footer .sites-info a:hover {
-      letter-spacing: 0; }
+    footer .sites-info li a {
+      color: #F3EFE3;
+      text-decoration-color: #F3EFE3; }
 @media (max-width: 992px) {
   footer div.flex {
     -webkit-box-orient: vertical;

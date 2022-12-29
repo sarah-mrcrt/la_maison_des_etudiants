@@ -47,7 +47,7 @@
 
 		<?php echo get_bloginfo( 'name' ); ?>
 		<nav id="site-navigation" class="main-navigation">
-			<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php esc_html_e( 'Primary Menu', 'theme-maison-des-etudiants' ); ?></button>
+			<!-- <button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php esc_html_e( 'Primary Menu', 'theme-maison-des-etudiants' ); ?></button> -->
 			<?php
 			wp_nav_menu(
 				array(
