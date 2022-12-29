@@ -1,12 +1,11 @@
 // Center block
 @mixin center-block {
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-$breakpoints: (
-    'sm-phone': 630px, // Small tablets and large smartphones (landscape view)
+$breakpoints: ('sm-phone': 630px, // Small tablets and large smartphones (landscape view)
     'md-tablet': 768px, // Small tablets (portrait view)
     'md-desktop': 992px, // Tablets and small desktops
     'lg-desktop': 1024px, // Tablets and small desktops

@@ -53,12 +53,16 @@ header.site-header {
 
             a {
                 color: $white;
-                text-decoration: none;
+                text-decoration-color: $white;
+                text-decoration-line: none;
+            }
+
+            [aria-current] {
+                text-decoration-line: underline;
             }
         }
     }
 }
-
 
 /*************** Menu burger ***************/
 header button {

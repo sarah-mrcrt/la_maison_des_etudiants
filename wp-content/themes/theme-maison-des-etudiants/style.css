@@ -109,16 +109,6 @@ sass ./sass/main.scss ./style.css
   margin-right: auto;
   margin-left: auto; }
 
-.arrow {
-  content: "";
-  display: inline-block;
-  background-image: url(../../../images/fleche.svg);
-  background-size: 16px;
-  width: 16px;
-  height: 20px;
-  background-repeat: no-repeat;
-  margin: -2px 10px; }
-
 /*--------------------------------------------------------------
 # Generic
 --------------------------------------------------------------*/
@@ -705,7 +695,10 @@ header.site-header {
     transition: all 0.5s ease; }
     header.site-header nav ul a {
       color: #F3EFE3;
-      text-decoration: none; }
+      text-decoration-color: #F3EFE3;
+      text-decoration-line: none; }
+    header.site-header nav ul [aria-current] {
+      text-decoration-line: underline; }
 
 /*************** Menu burger ***************/
 header button {
