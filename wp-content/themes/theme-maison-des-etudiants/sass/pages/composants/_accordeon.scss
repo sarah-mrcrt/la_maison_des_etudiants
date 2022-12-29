@@ -21,7 +21,7 @@
             display: block;
             width: 100%;
             color: $black;
-            //    Reset BTN
+            // Reset BTN
             border: none;
             background: none;
             outline: none;
@@ -91,6 +91,9 @@
                 padding: 1.5rem 0;
                 opacity: 1;
                 max-height: 9em;
+                // Transition
+                -webkit-transition: all 200ms linear;
+                -o-transition: all 200ms linear;
                 transition: all 200ms linear;
                 will-change: opacity, max-height;
             }
@@ -100,6 +103,9 @@
             opacity: 0;
             max-height: 0;
             overflow: hidden;
+            // Transition
+            -webkit-transition: opacity 200ms linear, max-height 200ms linear;
+            -o-transition: opacity 200ms linear, max-height 200ms linear;
             transition: opacity 200ms linear, max-height 200ms linear;
             will-change: opacity, max-height;
         }
