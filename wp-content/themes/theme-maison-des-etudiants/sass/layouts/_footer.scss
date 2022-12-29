@@ -55,13 +55,17 @@ footer {
                     }
                 }
             }
-			div.contact			{a:hover {
-			letter-spacing: 0;
-				} }
+
+            &.col-7 {
+                a:hover {
+                    letter-spacing: 0;
+                }
+            }
+
         }
     }
 
-    .sites-info {
+    .site-info {
         // Flex
         display: -webkit-box;
         display: -ms-flexbox;
@@ -88,13 +92,15 @@ footer {
         // Rognage
         clip-path: polygon(0 19%, 100% 9%, 100% 100%, 0% 100%);
 
-        li {            margin-bottom: 1rem;
+        li {
+            margin-bottom: 1rem;
 
-			a {
-            color: $color__background-body;
-            text-decoration-color: $color__background-body;
+            a {
+                color: $color__background-body;
+                text-decoration-color: $color__background-body;
+            }
         }
-		}}
+    }
 
     //-------------------------
     // Responsive

@@ -7,3 +7,25 @@
 --------------------------------------------- */
 @import "home/exposition";
 @import "home/edito";
+
+
+// FAQ
+button.accordion {
+  background-color: #eee;
+  cursor: pointer;
+  width: 100%;
+  outline: none;
+  transition: 0.4s;
+  .active, &:hover {
+  background-color: #ccc; 
+}
+}
+
+
+
+article.panel {
+  padding: 0 18px;
+  display: none;
+  background-color: white;
+  overflow: hidden;
+}

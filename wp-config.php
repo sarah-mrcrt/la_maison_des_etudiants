@@ -1,4 +1,5 @@
 <?php
+define('WP_CACHE', true); // WP-Optimize Cache
 /**
  * La configuration de base de votre installation WordPress.
  *
@@ -19,29 +20,22 @@
  *
  * @package WordPress
  */
-
 // ** Réglages MySQL - Votre hébergeur doit vous fournir ces informations. ** //
 /** Nom de la base de données de WordPress. */
 define( 'DB_NAME', 'la_maison_des_etudiants' );
-
 /** Utilisateur de la base de données MySQL. */
 define( 'DB_USER', 'root' );
-
 /** Mot de passe de la base de données MySQL. */
 define( 'DB_PASSWORD', '' );
-
 /** Adresse de l’hébergement MySQL. */
 define( 'DB_HOST', 'localhost' );
-
 /** Jeu de caractères à utiliser par la base de données lors de la création des tables. */
 define( 'DB_CHARSET', 'utf8mb4' );
-
 /**
  * Type de collation de la base de données.
  * N’y touchez que si vous savez ce que vous faites.
  */
 define( 'DB_COLLATE', '' );
-
 /**#@+
  * Clés uniques d’authentification et salage.
  *
@@ -62,7 +56,6 @@ define( 'SECURE_AUTH_SALT', '?R;9OiIexE]sMrgr>:UZ]Q8WEhGaq40.t[Wsc UO9szgrUv+6Un
 define( 'LOGGED_IN_SALT',   'V!!S1YYNz`Q[$N62uCZR|;#1u{|RfUYL38u&BY^)I~mEGBrGixGM0FF]Fd7}5ch<' );
 define( 'NONCE_SALT',       'NdKI<[R~+13v;~k;GbGD!xvqmLiO]^XtnRGci4L}r9SQvV1/]jf>Ss=tJty:*#*S' );
 /**#@-*/
-
 /**
  * Préfixe de base de données pour les tables de WordPress.
  *
@@ -71,7 +64,6 @@ define( 'NONCE_SALT',       'NdKI<[R~+13v;~k;GbGD!xvqmLiO]^XtnRGci4L}r9SQvV1/]jf
  * N’utilisez que des chiffres, des lettres non-accentuées, et des caractères soulignés !
  */
 $table_prefix = 'wp_';
-
 /**
  * Pour les développeurs : le mode déboguage de WordPress.
  *
@@ -87,12 +79,9 @@ $table_prefix = 'wp_';
  * @link https://fr.wordpress.org/support/article/debugging-in-wordpress/
  */
 define( 'WP_DEBUG', false );
-
 /* C’est tout, ne touchez pas à ce qui suit ! Bonne publication. */
-
 /** Chemin absolu vers le dossier de WordPress. */
 if ( ! defined( 'ABSPATH' ) )
   define( 'ABSPATH', dirname( __FILE__ ) . '/' );
-
 /** Réglage des variables de WordPress et de ses fichiers inclus. */
 require_once( ABSPATH . 'wp-settings.php' );

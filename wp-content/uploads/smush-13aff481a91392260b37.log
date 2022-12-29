@@ -1,0 +1,325 @@
+[2022-12-29 11:40:12 : INFO] - Re_Smush_It_Task with attachment ID : 87, autocreated on : December 29, 2022 11:40:12 
+[2022-12-29 11:40:12 : INFO] - Re_Smush_It_Task with attachment ID : 88, autocreated on : December 29, 2022 11:40:12 
+[2022-12-29 11:40:13 : INFO] - Re_Smush_It_Task with attachment ID : 89, autocreated on : December 29, 2022 11:40:13 
+[2022-12-29 11:40:13 : INFO] - Re_Smush_It_Task with attachment ID : 90, autocreated on : December 29, 2022 11:40:13 
+[2022-12-29 11:40:14 : INFO] - Re_Smush_It_Task with attachment ID : 91, autocreated on : December 29, 2022 11:40:14 
+[2022-12-29 11:40:15 : INFO] - Re_Smush_It_Task with attachment ID : 92, autocreated on : December 29, 2022 11:40:15 
+[2022-12-29 11:40:15 : INFO] - Re_Smush_It_Task with attachment ID : 93, autocreated on : December 29, 2022 11:40:15 
+[2022-12-29 11:40:16 : INFO] - Re_Smush_It_Task with attachment ID : 94, autocreated on : December 29, 2022 11:40:16 
+[2022-12-29 11:40:16 : INFO] - Re_Smush_It_Task with attachment ID : 95, autocreated on : December 29, 2022 11:40:16 
+[2022-12-29 11:40:17 : INFO] - Re_Smush_It_Task with attachment ID : 96, autocreated on : December 29, 2022 11:40:17 
+[2022-12-29 11:40:17 : INFO] - Re_Smush_It_Task with attachment ID : 97, autocreated on : December 29, 2022 11:40:17 
+[2022-12-29 12:30:00 : INFO] - 
+ 
+[2022-12-29 12:30:00 : INFO] - Header for logs at time:  Thu, 29 Dec 2022 12:30:00 +0000 on http://localhost/la_maison_des_etudiants 
+[2022-12-29 12:30:00 : INFO] - WP: 6.1.1 
+[2022-12-29 12:30:00 : INFO] - PHP: 7.3.21 (apache2handler, Windows NT LAPTOP-1P5HVHBE 10.0 build 22621 (Windows 10) AMD64) 
+[2022-12-29 12:30:00 : INFO] - MySQL: 5.7.31 
+[2022-12-29 12:30:00 : INFO] - WPLANG: fr_FR 
+[2022-12-29 12:30:00 : INFO] - Server: Apache/2.4.46 (Win64) PHP/7.3.21 
+[2022-12-29 12:30:00 : INFO] - Outbound connections: N 
+[2022-12-29 12:30:00 : INFO] - safe_mode: 0 
+[2022-12-29 12:30:00 : INFO] - max_execution_time: 120 
+[2022-12-29 12:30:00 : INFO] - memory_limit: 128M (used: 8.8M | 2M) 
+[2022-12-29 12:30:00 : INFO] - multisite: N 
+[2022-12-29 12:30:00 : INFO] - openssl: OpenSSL 1.1.1g  21 Apr 2020 
+[2022-12-29 12:30:00 : INFO] - A total of 11 tasks of type smush found and will be processed in this iteration 
+[2022-12-29 12:30:00 : DEBUG] - Lock option (updraft_lock_smush, wp_options) was created in the database 
+[2022-12-29 12:30:00 : INFO] - Lock (updraft_lock_smush, wp_options) acquired after initialising the database 
+[2022-12-29 12:30:00 : INFO] - Processing task with ID : 1, and type 'smush' 
+[2022-12-29 12:30:00 : INFO] - Re_Smush_It_Task with attachment ID : 87, autocreated on : December 29, 2022 11:40:12 
+[2022-12-29 12:30:00 : INFO] - 75 
+[2022-12-29 12:30:01 : INFO] - Backing up the original image - 2022/12/ARTISTE-yuyeung-lau-updraft-pre-smush-original.jpg 
+[2022-12-29 12:30:01 : INFO] - Re_Smush_It_Task with attachment ID : 87, autocreated on : December 29, 2022 11:40:12 
+[2022-12-29 12:30:01 : INFO] - 75 
+[2022-12-29 12:30:01 : INFO] - Re_Smush_It_Task with attachment ID : 87, autocreated on : December 29, 2022 11:40:12 
+[2022-12-29 12:30:01 : INFO] - 75 
+[2022-12-29 12:30:01 : INFO] - Successfully optimized the image - C:\wamp64\www\la_maison_des_etudiants/wp-content/uploads/2022/12/ARTISTE-yuyeung-lau.jpg.The file was compressed from 36.86 KB to 36.86 KB saving 0 percent using WP-Optimize 
+[2022-12-29 12:30:01 : INFO] - Completed processing task with ID : 1, and type 'smush' 
+[2022-12-29 12:30:01 : INFO] - Processing task with ID : 2, and type 'smush' 
+[2022-12-29 12:30:01 : INFO] - Re_Smush_It_Task with attachment ID : 88, autocreated on : December 29, 2022 11:40:12 
+[2022-12-29 12:30:01 : INFO] - 75 
+[2022-12-29 12:30:01 : INFO] - Backing up the original image - 2022/12/ARTISTE-Aurelien-thomas-updraft-pre-smush-original.jpg 
+[2022-12-29 12:30:01 : INFO] - Re_Smush_It_Task with attachment ID : 88, autocreated on : December 29, 2022 11:40:12 
+[2022-12-29 12:30:02 : INFO] - 75 
+[2022-12-29 12:30:02 : INFO] - Re_Smush_It_Task with attachment ID : 88, autocreated on : December 29, 2022 11:40:12 
+[2022-12-29 12:30:02 : INFO] - 75 
+[2022-12-29 12:30:02 : INFO] - Successfully optimized the image - C:\wamp64\www\la_maison_des_etudiants/wp-content/uploads/2022/12/ARTISTE-Aurelien-thomas.jpg.The file was compressed from 35.47 KB to 35.47 KB saving 0 percent using WP-Optimize 
+[2022-12-29 12:30:02 : INFO] - Completed processing task with ID : 2, and type 'smush' 
+[2022-12-29 12:30:02 : INFO] - Processing task with ID : 3, and type 'smush' 
+[2022-12-29 12:30:02 : INFO] - Re_Smush_It_Task with attachment ID : 89, autocreated on : December 29, 2022 11:40:13 
+[2022-12-29 12:30:02 : INFO] - 75 
+[2022-12-29 12:30:02 : INFO] - Backing up the original image - 2022/12/ARTISTE-brian-lundquist-updraft-pre-smush-original.jpg 
+[2022-12-29 12:30:02 : INFO] - Re_Smush_It_Task with attachment ID : 89, autocreated on : December 29, 2022 11:40:13 
+[2022-12-29 12:30:02 : INFO] - 75 
+[2022-12-29 12:30:03 : INFO] - Re_Smush_It_Task with attachment ID : 89, autocreated on : December 29, 2022 11:40:13 
+[2022-12-29 12:30:03 : INFO] - 75 
+[2022-12-29 12:30:03 : INFO] - Successfully optimized the image - C:\wamp64\www\la_maison_des_etudiants/wp-content/uploads/2022/12/ARTISTE-brian-lundquist.jpg.The file was compressed from 66.21 KB to 66.21 KB saving 0 percent using WP-Optimize 
+[2022-12-29 12:30:03 : INFO] - Completed processing task with ID : 3, and type 'smush' 
+[2022-12-29 12:30:03 : INFO] - Processing task with ID : 4, and type 'smush' 
+[2022-12-29 12:30:03 : INFO] - Re_Smush_It_Task with attachment ID : 90, autocreated on : December 29, 2022 11:40:13 
+[2022-12-29 12:30:03 : INFO] - 75 
+[2022-12-29 12:30:03 : INFO] - Backing up the original image - 2022/12/ARTISTE-Cesar-rincon-updraft-pre-smush-original.jpg 
+[2022-12-29 12:30:03 : INFO] - Re_Smush_It_Task with attachment ID : 90, autocreated on : December 29, 2022 11:40:13 
+[2022-12-29 12:30:04 : INFO] - 75 
+[2022-12-29 12:30:04 : INFO] - Re_Smush_It_Task with attachment ID : 90, autocreated on : December 29, 2022 11:40:13 
+[2022-12-29 12:30:04 : INFO] - 75 
+[2022-12-29 12:30:04 : INFO] - Successfully optimized the image - C:\wamp64\www\la_maison_des_etudiants/wp-content/uploads/2022/12/ARTISTE-Cesar-rincon.jpg.The file was compressed from 58.24 KB to 58.24 KB saving 0 percent using WP-Optimize 
+[2022-12-29 12:30:04 : INFO] - Completed processing task with ID : 4, and type 'smush' 
+[2022-12-29 12:30:04 : INFO] - Processing task with ID : 5, and type 'smush' 
+[2022-12-29 12:30:04 : INFO] - Re_Smush_It_Task with attachment ID : 91, autocreated on : December 29, 2022 11:40:14 
+[2022-12-29 12:30:04 : INFO] - 75 
+[2022-12-29 12:30:05 : INFO] - Backing up the original image - 2022/12/ARTISTE-Christian-buehner-updraft-pre-smush-original.jpg 
+[2022-12-29 12:30:05 : INFO] - Re_Smush_It_Task with attachment ID : 91, autocreated on : December 29, 2022 11:40:14 
+[2022-12-29 12:30:05 : INFO] - 75 
+[2022-12-29 12:30:05 : INFO] - Re_Smush_It_Task with attachment ID : 91, autocreated on : December 29, 2022 11:40:14 
+[2022-12-29 12:30:05 : INFO] - 75 
+[2022-12-29 12:30:05 : INFO] - Successfully optimized the image - C:\wamp64\www\la_maison_des_etudiants/wp-content/uploads/2022/12/ARTISTE-Christian-buehner.jpg.The file was compressed from 58.84 KB to 53.53 KB saving 9.03 percent using WP-Optimize 
+[2022-12-29 12:30:05 : INFO] - Completed processing task with ID : 5, and type 'smush' 
+[2022-12-29 12:30:05 : INFO] - Processing task with ID : 6, and type 'smush' 
+[2022-12-29 12:30:05 : INFO] - Re_Smush_It_Task with attachment ID : 92, autocreated on : December 29, 2022 11:40:15 
+[2022-12-29 12:30:05 : INFO] - 75 
+[2022-12-29 12:30:05 : INFO] - Backing up the original image - 2022/12/ARTISTE-Gift-habeshaw-updraft-pre-smush-original.jpg 
+[2022-12-29 12:30:05 : INFO] - Re_Smush_It_Task with attachment ID : 92, autocreated on : December 29, 2022 11:40:15 
+[2022-12-29 12:30:06 : INFO] - 75 
+[2022-12-29 12:30:06 : INFO] - Re_Smush_It_Task with attachment ID : 92, autocreated on : December 29, 2022 11:40:15 
+[2022-12-29 12:30:06 : INFO] - 75 
+[2022-12-29 12:30:06 : INFO] - Successfully optimized the image - C:\wamp64\www\la_maison_des_etudiants/wp-content/uploads/2022/12/ARTISTE-Gift-habeshaw.jpg.The file was compressed from 11.08 KB to 11.08 KB saving 0 percent using WP-Optimize 
+[2022-12-29 12:30:06 : INFO] - Completed processing task with ID : 6, and type 'smush' 
+[2022-12-29 12:30:06 : INFO] - Processing task with ID : 7, and type 'smush' 
+[2022-12-29 12:30:06 : INFO] - Re_Smush_It_Task with attachment ID : 93, autocreated on : December 29, 2022 11:40:15 
+[2022-12-29 12:30:06 : INFO] - 75 
+[2022-12-29 12:30:07 : INFO] - Backing up the original image - 2022/12/ARTISTE-Midas-hofstra-updraft-pre-smush-original.jpg 
+[2022-12-29 12:30:07 : INFO] - Re_Smush_It_Task with attachment ID : 93, autocreated on : December 29, 2022 11:40:15 
+[2022-12-29 12:30:07 : INFO] - 75 
+[2022-12-29 12:30:07 : INFO] - Re_Smush_It_Task with attachment ID : 93, autocreated on : December 29, 2022 11:40:15 
+[2022-12-29 12:30:07 : INFO] - 75 
+[2022-12-29 12:30:07 : INFO] - Successfully optimized the image - C:\wamp64\www\la_maison_des_etudiants/wp-content/uploads/2022/12/ARTISTE-Midas-hofstra.jpg.The file was compressed from 33.00 KB to 33.00 KB saving 0 percent using WP-Optimize 
+[2022-12-29 12:30:07 : INFO] - Completed processing task with ID : 7, and type 'smush' 
+[2022-12-29 12:30:07 : INFO] - Processing task with ID : 8, and type 'smush' 
+[2022-12-29 12:30:07 : INFO] - Re_Smush_It_Task with attachment ID : 94, autocreated on : December 29, 2022 11:40:16 
+[2022-12-29 12:30:07 : INFO] - 75 
+[2022-12-29 12:30:07 : INFO] - Backing up the original image - 2022/12/ARTISTE-Noah-buscher-updraft-pre-smush-original.jpg 
+[2022-12-29 12:30:07 : INFO] - Re_Smush_It_Task with attachment ID : 94, autocreated on : December 29, 2022 11:40:16 
+[2022-12-29 12:30:08 : INFO] - 75 
+[2022-12-29 12:30:08 : INFO] - Re_Smush_It_Task with attachment ID : 94, autocreated on : December 29, 2022 11:40:16 
+[2022-12-29 12:30:08 : INFO] - 75 
+[2022-12-29 12:30:08 : INFO] - Successfully optimized the image - C:\wamp64\www\la_maison_des_etudiants/wp-content/uploads/2022/12/ARTISTE-Noah-buscher.jpg.The file was compressed from 29.26 KB to 29.26 KB saving 0 percent using WP-Optimize 
+[2022-12-29 12:30:08 : INFO] - Completed processing task with ID : 8, and type 'smush' 
+[2022-12-29 12:30:08 : INFO] - Processing task with ID : 9, and type 'smush' 
+[2022-12-29 12:30:08 : INFO] - Re_Smush_It_Task with attachment ID : 95, autocreated on : December 29, 2022 11:40:16 
+[2022-12-29 12:30:08 : INFO] - 75 
+[2022-12-29 12:30:08 : INFO] - Backing up the original image - 2022/12/ARTISTE-rever-mathylde-updraft-pre-smush-original.jpg 
+[2022-12-29 12:30:08 : INFO] - Re_Smush_It_Task with attachment ID : 95, autocreated on : December 29, 2022 11:40:16 
+[2022-12-29 12:30:08 : INFO] - 75 
+[2022-12-29 12:30:09 : INFO] - Re_Smush_It_Task with attachment ID : 95, autocreated on : December 29, 2022 11:40:16 
+[2022-12-29 12:30:09 : INFO] - 75 
+[2022-12-29 12:30:09 : INFO] - Successfully optimized the image - C:\wamp64\www\la_maison_des_etudiants/wp-content/uploads/2022/12/ARTISTE-rever-mathylde.jpg.The file was compressed from 35.76 KB to 29.41 KB saving 17.76 percent using WP-Optimize 
+[2022-12-29 12:30:09 : INFO] - Completed processing task with ID : 9, and type 'smush' 
+[2022-12-29 12:30:09 : INFO] - Processing task with ID : 10, and type 'smush' 
+[2022-12-29 12:30:09 : INFO] - Re_Smush_It_Task with attachment ID : 96, autocreated on : December 29, 2022 11:40:17 
+[2022-12-29 12:30:09 : INFO] - 75 
+[2022-12-29 12:30:09 : INFO] - Backing up the original image - 2022/12/ARTISTE-rever-mathylde-2-updraft-pre-smush-original.jpg 
+[2022-12-29 12:30:09 : INFO] - Re_Smush_It_Task with attachment ID : 96, autocreated on : December 29, 2022 11:40:17 
+[2022-12-29 12:30:09 : INFO] - 75 
+[2022-12-29 12:30:09 : INFO] - Re_Smush_It_Task with attachment ID : 96, autocreated on : December 29, 2022 11:40:17 
+[2022-12-29 12:30:10 : INFO] - 75 
+[2022-12-29 12:30:10 : INFO] - Successfully optimized the image - C:\wamp64\www\la_maison_des_etudiants/wp-content/uploads/2022/12/ARTISTE-rever-mathylde-2.jpg.The file was compressed from 30.23 KB to 30.23 KB saving 0 percent using WP-Optimize 
+[2022-12-29 12:30:10 : INFO] - Completed processing task with ID : 10, and type 'smush' 
+[2022-12-29 12:30:10 : INFO] - Processing task with ID : 11, and type 'smush' 
+[2022-12-29 12:30:10 : INFO] - Re_Smush_It_Task with attachment ID : 97, autocreated on : December 29, 2022 11:40:17 
+[2022-12-29 12:30:10 : INFO] - 75 
+[2022-12-29 12:30:10 : INFO] - Backing up the original image - 2022/12/ARTISTE-tim-zankert-updraft-pre-smush-original.jpg 
+[2022-12-29 12:30:10 : INFO] - Re_Smush_It_Task with attachment ID : 97, autocreated on : December 29, 2022 11:40:17 
+[2022-12-29 12:30:10 : INFO] - 75 
+[2022-12-29 12:30:10 : INFO] - Re_Smush_It_Task with attachment ID : 97, autocreated on : December 29, 2022 11:40:17 
+[2022-12-29 12:30:11 : INFO] - 75 
+[2022-12-29 12:30:11 : INFO] - Successfully optimized the image - C:\wamp64\www\la_maison_des_etudiants/wp-content/uploads/2022/12/ARTISTE-tim-zankert.jpg.The file was compressed from 42.71 KB to 42.71 KB saving 0 percent using WP-Optimize 
+[2022-12-29 12:30:11 : INFO] - Completed processing task with ID : 11, and type 'smush' 
+[2022-12-29 12:30:11 : INFO] - Lock option (updraft_lock_smush, wp_options) released 
+[2022-12-29 12:30:11 : INFO] - Successfully processed the queue (smush). 11 tasks were processed out of 11. 
+[2022-12-29 12:30:11 : INFO] - Lock option (updraft_lock_smush, wp_options) was deleted from the database 
+[2022-12-29 12:30:11 : INFO] - Cleaning up tasks of type (smush). A total of 11 tasks will be deleted. 
+[2022-12-29 12:40:00 : INFO] - 
+ 
+[2022-12-29 12:40:00 : INFO] - Header for logs at time:  Thu, 29 Dec 2022 12:40:00 +0000 on http://localhost/la_maison_des_etudiants 
+[2022-12-29 12:40:00 : INFO] - WP: 6.1.1 
+[2022-12-29 12:40:00 : INFO] - PHP: 7.3.21 (apache2handler, Windows NT LAPTOP-1P5HVHBE 10.0 build 22621 (Windows 10) AMD64) 
+[2022-12-29 12:40:00 : INFO] - MySQL: 5.7.31 
+[2022-12-29 12:40:00 : INFO] - WPLANG: fr_FR 
+[2022-12-29 12:40:00 : INFO] - Server: Apache/2.4.46 (Win64) PHP/7.3.21 
+[2022-12-29 12:40:00 : INFO] - Outbound connections: N 
+[2022-12-29 12:40:00 : INFO] - safe_mode: 0 
+[2022-12-29 12:40:00 : INFO] - max_execution_time: 120 
+[2022-12-29 12:40:00 : INFO] - memory_limit: 128M (used: 8.8M | 10M) 
+[2022-12-29 12:40:00 : INFO] - multisite: N 
+[2022-12-29 12:40:00 : INFO] - openssl: OpenSSL 1.1.1g  21 Apr 2020 
+[2022-12-29 12:40:00 : INFO] - The queue for tasks of type "smush" is empty. Aborting! 
+[2022-12-29 12:44:58 : INFO] - Re_Smush_It_Task with attachment ID : 110, autocreated on : December 29, 2022 12:44:58 
+[2022-12-29 12:44:59 : INFO] - Re_Smush_It_Task with attachment ID : 111, autocreated on : December 29, 2022 12:44:59 
+[2022-12-29 12:45:00 : INFO] - Re_Smush_It_Task with attachment ID : 112, autocreated on : December 29, 2022 12:45:00 
+[2022-12-29 12:45:09 : INFO] - Re_Smush_It_Task with attachment ID : 113, autocreated on : December 29, 2022 12:45:09 
+[2022-12-29 12:45:10 : INFO] - Re_Smush_It_Task with attachment ID : 114, autocreated on : December 29, 2022 12:45:10 
+[2022-12-29 12:45:11 : INFO] - Re_Smush_It_Task with attachment ID : 115, autocreated on : December 29, 2022 12:45:11 
+[2022-12-29 13:01:09 : INFO] - 
+ 
+[2022-12-29 13:01:09 : INFO] - Header for logs at time:  Thu, 29 Dec 2022 13:01:09 +0000 on http://localhost/la_maison_des_etudiants 
+[2022-12-29 13:01:09 : INFO] - WP: 6.1.1 
+[2022-12-29 13:01:09 : INFO] - PHP: 7.3.21 (apache2handler, Windows NT LAPTOP-1P5HVHBE 10.0 build 22621 (Windows 10) AMD64) 
+[2022-12-29 13:01:09 : INFO] - MySQL: 5.7.31 
+[2022-12-29 13:01:09 : INFO] - WPLANG: fr_FR 
+[2022-12-29 13:01:09 : INFO] - Server: Apache/2.4.46 (Win64) PHP/7.3.21 
+[2022-12-29 13:01:09 : INFO] - Outbound connections: N 
+[2022-12-29 13:01:09 : INFO] - safe_mode: 0 
+[2022-12-29 13:01:09 : INFO] - max_execution_time: 120 
+[2022-12-29 13:01:09 : INFO] - memory_limit: 128M (used: 8.8M | 2M) 
+[2022-12-29 13:01:09 : INFO] - multisite: N 
+[2022-12-29 13:01:09 : INFO] - openssl: OpenSSL 1.1.1g  21 Apr 2020 
+[2022-12-29 13:01:09 : INFO] - A total of 6 tasks of type smush found and will be processed in this iteration 
+[2022-12-29 13:01:09 : DEBUG] - Lock option (updraft_lock_smush, wp_options) was created in the database 
+[2022-12-29 13:01:09 : INFO] - Lock (updraft_lock_smush, wp_options) acquired after initialising the database 
+[2022-12-29 13:01:09 : INFO] - Processing task with ID : 14, and type 'smush' 
+[2022-12-29 13:01:09 : INFO] - Re_Smush_It_Task with attachment ID : 112, autocreated on : December 29, 2022 12:45:00 
+[2022-12-29 13:01:10 : INFO] - 75 
+[2022-12-29 13:01:12 : INFO] - Backing up the original image - 2022/12/EXPOSITION-oeuvre1-scaled-updraft-pre-smush-original.jpg 
+[2022-12-29 13:01:12 : INFO] - Re_Smush_It_Task with attachment ID : 112, autocreated on : December 29, 2022 12:45:00 
+[2022-12-29 13:01:12 : INFO] - 75 
+[2022-12-29 13:01:12 : INFO] - Re_Smush_It_Task with attachment ID : 112, autocreated on : December 29, 2022 12:45:00 
+[2022-12-29 13:01:12 : INFO] - 75 
+[2022-12-29 13:01:13 : INFO] - Re_Smush_It_Task with attachment ID : 112, autocreated on : December 29, 2022 12:45:00 
+[2022-12-29 13:01:13 : INFO] - 75 
+[2022-12-29 13:01:13 : INFO] - Re_Smush_It_Task with attachment ID : 112, autocreated on : December 29, 2022 12:45:00 
+[2022-12-29 13:01:13 : INFO] - 75 
+[2022-12-29 13:01:13 : INFO] - Re_Smush_It_Task with attachment ID : 112, autocreated on : December 29, 2022 12:45:00 
+[2022-12-29 13:01:14 : INFO] - 75 
+[2022-12-29 13:01:14 : INFO] - Re_Smush_It_Task with attachment ID : 112, autocreated on : December 29, 2022 12:45:00 
+[2022-12-29 13:01:15 : INFO] - 75 
+[2022-12-29 13:01:16 : INFO] - Successfully optimized the image - C:\wamp64\www\la_maison_des_etudiants/wp-content/uploads/2022/12/EXPOSITION-oeuvre1-scaled.jpg.The file was compressed from 432.26 KB to 364.27 KB saving 15.73 percent using WP-Optimize 
+[2022-12-29 13:01:16 : INFO] - Completed processing task with ID : 14, and type 'smush' 
+[2022-12-29 13:01:16 : INFO] - Processing task with ID : 13, and type 'smush' 
+[2022-12-29 13:01:16 : INFO] - Re_Smush_It_Task with attachment ID : 111, autocreated on : December 29, 2022 12:44:59 
+[2022-12-29 13:01:16 : INFO] - 75 
+[2022-12-29 13:01:17 : INFO] - Backing up the original image - 2022/12/Exposition-Le-desordre-updraft-pre-smush-original.jpg 
+[2022-12-29 13:01:17 : INFO] - Re_Smush_It_Task with attachment ID : 111, autocreated on : December 29, 2022 12:44:59 
+[2022-12-29 13:01:17 : INFO] - 75 
+[2022-12-29 13:01:17 : INFO] - Re_Smush_It_Task with attachment ID : 111, autocreated on : December 29, 2022 12:44:59 
+[2022-12-29 13:01:17 : INFO] - 75 
+[2022-12-29 13:01:18 : INFO] - Re_Smush_It_Task with attachment ID : 111, autocreated on : December 29, 2022 12:44:59 
+[2022-12-29 13:01:18 : INFO] - 75 
+[2022-12-29 13:01:18 : INFO] - Re_Smush_It_Task with attachment ID : 111, autocreated on : December 29, 2022 12:44:59 
+[2022-12-29 13:01:18 : INFO] - 75 
+[2022-12-29 13:01:18 : INFO] - Successfully optimized the image - C:\wamp64\www\la_maison_des_etudiants/wp-content/uploads/2022/12/Exposition-Le-desordre.jpg.The file was compressed from 42.94 KB to 42.94 KB saving 0 percent using WP-Optimize 
+[2022-12-29 13:01:18 : INFO] - Completed processing task with ID : 13, and type 'smush' 
+[2022-12-29 13:01:18 : INFO] - Processing task with ID : 17, and type 'smush' 
+[2022-12-29 13:01:18 : INFO] - Re_Smush_It_Task with attachment ID : 115, autocreated on : December 29, 2022 12:45:11 
+[2022-12-29 13:01:18 : INFO] - 75 
+[2022-12-29 13:01:20 : INFO] - Backing up the original image - 2022/12/FAQ-Artistes-workshop-updraft-pre-smush-original.jpg 
+[2022-12-29 13:01:20 : INFO] - Re_Smush_It_Task with attachment ID : 115, autocreated on : December 29, 2022 12:45:11 
+[2022-12-29 13:01:20 : INFO] - 75 
+[2022-12-29 13:01:21 : INFO] - Re_Smush_It_Task with attachment ID : 115, autocreated on : December 29, 2022 12:45:11 
+[2022-12-29 13:01:21 : INFO] - 75 
+[2022-12-29 13:01:23 : INFO] - Re_Smush_It_Task with attachment ID : 115, autocreated on : December 29, 2022 12:45:11 
+[2022-12-29 13:01:23 : INFO] - 75 
+[2022-12-29 13:01:23 : INFO] - Re_Smush_It_Task with attachment ID : 115, autocreated on : December 29, 2022 12:45:11 
+[2022-12-29 13:01:24 : INFO] - 75 
+[2022-12-29 13:01:24 : INFO] - Successfully optimized the image - C:\wamp64\www\la_maison_des_etudiants/wp-content/uploads/2022/12/FAQ-Artistes-workshop.jpg.The file was compressed from 102.85 KB to 101.64 KB saving 1.18 percent using WP-Optimize 
+[2022-12-29 13:01:24 : INFO] - Completed processing task with ID : 17, and type 'smush' 
+[2022-12-29 13:01:24 : INFO] - Processing task with ID : 16, and type 'smush' 
+[2022-12-29 13:01:24 : INFO] - Re_Smush_It_Task with attachment ID : 114, autocreated on : December 29, 2022 12:45:10 
+[2022-12-29 13:01:24 : INFO] - 75 
+[2022-12-29 13:01:24 : INFO] - Backing up the original image - 2022/12/EXPOSITION-oeuvre3-updraft-pre-smush-original.jpg 
+[2022-12-29 13:01:24 : INFO] - Re_Smush_It_Task with attachment ID : 114, autocreated on : December 29, 2022 12:45:10 
+[2022-12-29 13:01:24 : INFO] - 75 
+[2022-12-29 13:01:25 : INFO] - Re_Smush_It_Task with attachment ID : 114, autocreated on : December 29, 2022 12:45:10 
+[2022-12-29 13:01:25 : INFO] - 75 
+[2022-12-29 13:01:25 : INFO] - Re_Smush_It_Task with attachment ID : 114, autocreated on : December 29, 2022 12:45:10 
+[2022-12-29 13:01:25 : INFO] - 75 
+[2022-12-29 13:01:26 : INFO] - Re_Smush_It_Task with attachment ID : 114, autocreated on : December 29, 2022 12:45:10 
+[2022-12-29 13:01:26 : INFO] - 75 
+[2022-12-29 13:01:26 : INFO] - Successfully optimized the image - C:\wamp64\www\la_maison_des_etudiants/wp-content/uploads/2022/12/EXPOSITION-oeuvre3.jpg.The file was compressed from 49.93 KB to 49.93 KB saving 0 percent using WP-Optimize 
+[2022-12-29 13:01:26 : INFO] - Completed processing task with ID : 16, and type 'smush' 
+[2022-12-29 13:01:26 : INFO] - Processing task with ID : 15, and type 'smush' 
+[2022-12-29 13:01:26 : INFO] - Re_Smush_It_Task with attachment ID : 113, autocreated on : December 29, 2022 12:45:09 
+[2022-12-29 13:01:26 : INFO] - 75 
+[2022-12-29 13:01:26 : INFO] - Backing up the original image - 2022/12/EXPOSITION-oeuvre2-updraft-pre-smush-original.jpg 
+[2022-12-29 13:01:26 : INFO] - Re_Smush_It_Task with attachment ID : 113, autocreated on : December 29, 2022 12:45:09 
+[2022-12-29 13:01:26 : INFO] - 75 
+[2022-12-29 13:01:27 : INFO] - Re_Smush_It_Task with attachment ID : 113, autocreated on : December 29, 2022 12:45:09 
+[2022-12-29 13:01:27 : INFO] - 75 
+[2022-12-29 13:01:28 : INFO] - Re_Smush_It_Task with attachment ID : 113, autocreated on : December 29, 2022 12:45:09 
+[2022-12-29 13:01:28 : INFO] - 75 
+[2022-12-29 13:01:28 : INFO] - Re_Smush_It_Task with attachment ID : 113, autocreated on : December 29, 2022 12:45:09 
+[2022-12-29 13:01:28 : INFO] - 75 
+[2022-12-29 13:01:28 : INFO] - Successfully optimized the image - C:\wamp64\www\la_maison_des_etudiants/wp-content/uploads/2022/12/EXPOSITION-oeuvre2.jpg.The file was compressed from 57.13 KB to 57.04 KB saving 0.15 percent using WP-Optimize 
+[2022-12-29 13:01:28 : INFO] - Completed processing task with ID : 15, and type 'smush' 
+[2022-12-29 13:01:28 : INFO] - Processing task with ID : 12, and type 'smush' 
+[2022-12-29 13:01:28 : INFO] - Re_Smush_It_Task with attachment ID : 110, autocreated on : December 29, 2022 12:44:58 
+[2022-12-29 13:01:29 : INFO] - 75 
+[2022-12-29 13:01:29 : INFO] - Backing up the original image - 2022/12/CONTACT-updraft-pre-smush-original.jpg 
+[2022-12-29 13:01:29 : INFO] - Re_Smush_It_Task with attachment ID : 110, autocreated on : December 29, 2022 12:44:58 
+[2022-12-29 13:01:29 : INFO] - 75 
+[2022-12-29 13:01:30 : INFO] - Re_Smush_It_Task with attachment ID : 110, autocreated on : December 29, 2022 12:44:58 
+[2022-12-29 13:01:30 : INFO] - 75 
+[2022-12-29 13:01:30 : INFO] - Re_Smush_It_Task with attachment ID : 110, autocreated on : December 29, 2022 12:44:58 
+[2022-12-29 13:01:31 : INFO] - 75 
+[2022-12-29 13:01:31 : INFO] - Re_Smush_It_Task with attachment ID : 110, autocreated on : December 29, 2022 12:44:58 
+[2022-12-29 13:01:31 : INFO] - 75 
+[2022-12-29 13:01:31 : INFO] - Successfully optimized the image - C:\wamp64\www\la_maison_des_etudiants/wp-content/uploads/2022/12/CONTACT.jpg.The file was compressed from 174.56 KB to 171.83 KB saving 1.56 percent using WP-Optimize 
+[2022-12-29 13:01:31 : INFO] - Completed processing task with ID : 12, and type 'smush' 
+[2022-12-29 13:01:31 : INFO] - Lock option (updraft_lock_smush, wp_options) released 
+[2022-12-29 13:01:31 : INFO] - Successfully processed the queue (smush). 6 tasks were processed out of 6. 
+[2022-12-29 13:01:31 : INFO] - Lock option (updraft_lock_smush, wp_options) was deleted from the database 
+[2022-12-29 13:01:31 : INFO] - Cleaning up tasks of type (smush). A total of 6 tasks will be deleted. 
+[2022-12-29 13:07:58 : INFO] - Re_Smush_It_Task with attachment ID : 120, autocreated on : December 29, 2022 01:07:58 
+[2022-12-29 13:11:26 : INFO] - 
+ 
+[2022-12-29 13:11:26 : INFO] - Header for logs at time:  Thu, 29 Dec 2022 13:11:26 +0000 on http://localhost/la_maison_des_etudiants 
+[2022-12-29 13:11:26 : INFO] - WP: 6.1.1 
+[2022-12-29 13:11:26 : INFO] - PHP: 7.3.21 (apache2handler, Windows NT LAPTOP-1P5HVHBE 10.0 build 22621 (Windows 10) AMD64) 
+[2022-12-29 13:11:26 : INFO] - MySQL: 5.7.31 
+[2022-12-29 13:11:26 : INFO] - WPLANG: fr_FR 
+[2022-12-29 13:11:26 : INFO] - Server: Apache/2.4.46 (Win64) PHP/7.3.21 
+[2022-12-29 13:11:26 : INFO] - Outbound connections: N 
+[2022-12-29 13:11:26 : INFO] - safe_mode: 0 
+[2022-12-29 13:11:26 : INFO] - max_execution_time: 120 
+[2022-12-29 13:11:26 : INFO] - memory_limit: 128M (used: 8.8M | 2M) 
+[2022-12-29 13:11:26 : INFO] - multisite: N 
+[2022-12-29 13:11:26 : INFO] - openssl: OpenSSL 1.1.1g  21 Apr 2020 
+[2022-12-29 13:11:26 : INFO] - A total of 1 tasks of type smush found and will be processed in this iteration 
+[2022-12-29 13:11:26 : DEBUG] - Lock option (updraft_lock_smush, wp_options) was created in the database 
+[2022-12-29 13:11:26 : INFO] - Lock (updraft_lock_smush, wp_options) acquired after initialising the database 
+[2022-12-29 13:11:26 : INFO] - Processing task with ID : 18, and type 'smush' 
+[2022-12-29 13:11:26 : INFO] - Re_Smush_It_Task with attachment ID : 120, autocreated on : December 29, 2022 01:07:58 
+[2022-12-29 13:11:27 : INFO] - 75 
+[2022-12-29 13:11:28 : INFO] - Backing up the original image - 2022/12/ARTISTES-workshop-updraft-pre-smush-original.jpg 
+[2022-12-29 13:11:28 : INFO] - Re_Smush_It_Task with attachment ID : 120, autocreated on : December 29, 2022 01:07:58 
+[2022-12-29 13:11:28 : INFO] - 75 
+[2022-12-29 13:11:28 : INFO] - Re_Smush_It_Task with attachment ID : 120, autocreated on : December 29, 2022 01:07:58 
+[2022-12-29 13:11:29 : INFO] - 75 
+[2022-12-29 13:11:29 : INFO] - Re_Smush_It_Task with attachment ID : 120, autocreated on : December 29, 2022 01:07:58 
+[2022-12-29 13:11:29 : INFO] - 75 
+[2022-12-29 13:11:30 : INFO] - Re_Smush_It_Task with attachment ID : 120, autocreated on : December 29, 2022 01:07:58 
+[2022-12-29 13:11:30 : INFO] - 75 
+[2022-12-29 13:11:34 : INFO] - Re_Smush_It_Task with attachment ID : 120, autocreated on : December 29, 2022 01:07:58 
+[2022-12-29 13:11:34 : INFO] - 75 
+[2022-12-29 13:11:35 : INFO] - Successfully optimized the image - C:\wamp64\www\la_maison_des_etudiants/wp-content/uploads/2022/12/ARTISTES-workshop.jpg.The file was compressed from 520.24 KB to 293.82 KB saving 43.52 percent using WP-Optimize 
+[2022-12-29 13:11:35 : INFO] - Completed processing task with ID : 18, and type 'smush' 
+[2022-12-29 13:11:35 : INFO] - Lock option (updraft_lock_smush, wp_options) released 
+[2022-12-29 13:11:35 : INFO] - Successfully processed the queue (smush). 1 tasks were processed out of 1. 
+[2022-12-29 13:11:35 : INFO] - Lock option (updraft_lock_smush, wp_options) was deleted from the database 
+[2022-12-29 13:11:35 : INFO] - Cleaning up tasks of type (smush). A total of 1 tasks will be deleted. 
+[2022-12-29 13:21:35 : INFO] - 
+ 
+[2022-12-29 13:21:35 : INFO] - Header for logs at time:  Thu, 29 Dec 2022 13:21:35 +0000 on http://localhost/la_maison_des_etudiants 
+[2022-12-29 13:21:35 : INFO] - WP: 6.1.1 
+[2022-12-29 13:21:35 : INFO] - PHP: 7.3.21 (apache2handler, Windows NT LAPTOP-1P5HVHBE 10.0 build 22621 (Windows 10) AMD64) 
+[2022-12-29 13:21:35 : INFO] - MySQL: 5.7.31 
+[2022-12-29 13:21:35 : INFO] - WPLANG: fr_FR 
+[2022-12-29 13:21:35 : INFO] - Server: Apache/2.4.46 (Win64) PHP/7.3.21 
+[2022-12-29 13:21:35 : INFO] - Outbound connections: N 
+[2022-12-29 13:21:35 : INFO] - safe_mode: 0 
+[2022-12-29 13:21:35 : INFO] - max_execution_time: 120 
+[2022-12-29 13:21:35 : INFO] - memory_limit: 128M (used: 8.8M | 2M) 
+[2022-12-29 13:21:35 : INFO] - multisite: N 
+[2022-12-29 13:21:35 : INFO] - openssl: OpenSSL 1.1.1g  21 Apr 2020 
+[2022-12-29 13:21:35 : INFO] - The queue for tasks of type "smush" is empty. Aborting! 
