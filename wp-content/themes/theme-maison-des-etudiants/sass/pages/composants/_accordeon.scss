@@ -1,0 +1,107 @@
+// https://codepen.io/kathykato/pen/MoZJom
+
+.accordion {
+    article {
+        margin-bottom: 1rem;
+    }
+
+    h3 {
+        padding-right: 1.5rem;
+    }
+
+    .accordion-item {
+        border-bottom: 5px solid $black;
+
+        button[aria-expanded='true'] {
+            border-bottom: 2px solid #d2cec3;
+        }
+
+        button {
+            position: relative;
+            display: block;
+            width: 100%;
+            color: $black;
+            //    Reset BTN
+            border: none;
+            background: none;
+            outline: none;
+            text-align: left;
+            padding: 0;
+
+            &:hover,
+            &:focus {
+                cursor: pointer;
+                color: $grey;
+            }
+
+            .accordion-title {
+                margin-bottom: 1rem;
+            }
+
+            .icon {
+                display: inline-block;
+                position: absolute;
+                top: 18px;
+                right: 0;
+                width: 22px;
+                height: 22px;
+                border: 1px solid;
+                border-radius: 22px;
+
+                &::before {
+                    display: block;
+                    position: absolute;
+                    content: '';
+                    top: 9px;
+                    left: 5px;
+                    width: 10px;
+                    height: 2px;
+                    background: currentColor;
+                }
+
+                &::after {
+                    display: block;
+                    position: absolute;
+                    content: '';
+                    top: 5px;
+                    left: 9px;
+                    width: 2px;
+                    height: 10px;
+                    background: currentColor;
+                }
+
+                text-align: initial;
+
+                @include responsive("sm-phone") {
+                    display: none;
+                }
+            }
+        }
+
+        button[aria-expanded='true'] {
+            color: $grey;
+
+            .icon {
+                &::after {
+                    width: 0;
+                }
+            }
+
+            +.accordion-content {
+                padding: 1.5rem 0;
+                opacity: 1;
+                max-height: 9em;
+                transition: all 200ms linear;
+                will-change: opacity, max-height;
+            }
+        }
+
+        .accordion-content {
+            opacity: 0;
+            max-height: 0;
+            overflow: hidden;
+            transition: opacity 200ms linear, max-height 200ms linear;
+            will-change: opacity, max-height;
+        }
+    }
+}

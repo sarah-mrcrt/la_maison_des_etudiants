@@ -58,4 +58,7 @@ h3 {
     font-size: clamp(1.5rem, 1.7vw, 2rem);
     margin-bottom: 1rem;
     text-transform: uppercase;
+    @include responsive("sm-phone") {
+        font-size: inherit;
+    }
 }

@@ -470,6 +470,9 @@ h3 {
   font-size: clamp(1.5rem, 1.7vw, 2rem);
   margin-bottom: 1rem;
   text-transform: uppercase; }
+  @media (max-width: 630px) {
+    h3 {
+      font-size: inherit; } }
 
 dfn,
 cite,
@@ -909,6 +912,77 @@ footer .site-info {
     flex-direction: column;
     text-align: center; } }
 
+.accordion article {
+  margin-bottom: 1rem; }
+.accordion h3 {
+  padding-right: 1.5rem; }
+.accordion .accordion-item {
+  border-bottom: 5px solid #000000; }
+  .accordion .accordion-item button[aria-expanded='true'] {
+    border-bottom: 2px solid #d2cec3; }
+  .accordion .accordion-item button {
+    position: relative;
+    display: block;
+    width: 100%;
+    color: #000000;
+    border: none;
+    background: none;
+    outline: none;
+    text-align: left;
+    padding: 0; }
+    .accordion .accordion-item button:hover, .accordion .accordion-item button:focus {
+      cursor: pointer;
+      color: #8C8C8C; }
+    .accordion .accordion-item button .accordion-title {
+      margin-bottom: 1rem; }
+    .accordion .accordion-item button .icon {
+      display: inline-block;
+      position: absolute;
+      top: 18px;
+      right: 0;
+      width: 22px;
+      height: 22px;
+      border: 1px solid;
+      border-radius: 22px;
+      text-align: initial; }
+      .accordion .accordion-item button .icon::before {
+        display: block;
+        position: absolute;
+        content: '';
+        top: 9px;
+        left: 5px;
+        width: 10px;
+        height: 2px;
+        background: currentColor; }
+      .accordion .accordion-item button .icon::after {
+        display: block;
+        position: absolute;
+        content: '';
+        top: 5px;
+        left: 9px;
+        width: 2px;
+        height: 10px;
+        background: currentColor; }
+      @media (max-width: 630px) {
+        .accordion .accordion-item button .icon {
+          display: none; } }
+  .accordion .accordion-item button[aria-expanded='true'] {
+    color: #8C8C8C; }
+    .accordion .accordion-item button[aria-expanded='true'] .icon::after {
+      width: 0; }
+    .accordion .accordion-item button[aria-expanded='true'] + .accordion-content {
+      padding: 1.5rem 0;
+      opacity: 1;
+      max-height: 9em;
+      transition: all 200ms linear;
+      will-change: opacity, max-height; }
+  .accordion .accordion-item .accordion-content {
+    opacity: 0;
+    max-height: 0;
+    overflow: hidden;
+    transition: opacity 200ms linear, max-height 200ms linear;
+    will-change: opacity, max-height; }
+
 /* Home
 --------------------------------------------- */
 #exposition h2 {
@@ -990,20 +1064,5 @@ footer .site-info {
         text-align: center; }
       #edito figure img {
         display: none; } }
-
-button.accordion {
-  background-color: #eee;
-  cursor: pointer;
-  width: 100%;
-  outline: none;
-  transition: 0.4s; }
-  button.accordion .active, button.accordion:hover {
-    background-color: #ccc; }
-
-article.panel {
-  padding: 0 18px;
-  display: none;
-  background-color: white;
-  overflow: hidden; }
 
 /*# sourceMappingURL=style.css.map */
