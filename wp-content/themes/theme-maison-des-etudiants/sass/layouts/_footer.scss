@@ -58,7 +58,7 @@ footer {
         }
     }
 
-    .site-info {
+    .sites-info {
         // Flex
         display: -webkit-box;
         display: -ms-flexbox;
@@ -89,6 +89,9 @@ footer {
             color: $color__background-body;
             text-decoration-color: $color__background-body;
             margin-bottom: 1rem;
+			&:hover {
+			letter-spacing: 0;
+	}
         }
     }
 
