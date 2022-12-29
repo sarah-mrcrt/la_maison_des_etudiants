@@ -3,7 +3,6 @@
         // Grid
         display: -ms-grid;
         display: grid;
-        -ms-grid-columns: (1fr)[2];
         grid-template-columns: repeat(2, 1fr);
         row-gap: 10px;
 
@@ -50,18 +49,12 @@
 
                     p.description {
                         color: $color__link-hover;
+                        margin-bottom: 1rem;
+                        background-color: red;
                     }
 
-                    dl.place {
-                        margin-top: 1rem;
+                    span.place {
                         font-size: 1rem;
-                        // Flex
-                        display: -webkit-inline-box;
-                        display: -ms-inline-flexbox;
-                        display: inline-flex;
-                        -webkit-box-align: end;
-                        -ms-flex-align: end;
-                        align-items: flex-end;
                     }
                 }
 
@@ -84,7 +77,6 @@
 
     @include responsive("md-desktop") {
         div.grid-gallery {
-            -ms-grid-columns: (1fr)[1];
             grid-template-columns: repeat(1, 1fr);
 
             article {
@@ -122,12 +114,6 @@
                     -ms-flex-direction: column;
                     flex-direction: column;
                     text-align: center;
-
-                    figcaption {
-                        dl.place {
-                            margin-top: 0;
-                        }
-                    }
                 }
             }
         }
