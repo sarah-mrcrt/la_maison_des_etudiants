@@ -16,9 +16,11 @@ button.accordion {
   width: 100%;
   outline: none;
   transition: 0.4s;
-  .active, &:hover {
-  background-color: #ccc; 
-}
+
+  .active,
+  &:hover {
+    background-color: #ccc;
+  }
 }
 
 

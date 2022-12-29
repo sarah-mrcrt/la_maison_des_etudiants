@@ -2,6 +2,13 @@
 form {
     padding: 3rem;
 
+    //-------------------------
+    // Responsive
+    //-------------------------
+    @include responsive("md-desktop") {
+        width: auto;
+    }
+
     @include responsive("sm-phone") {
         padding: inherit;
     }
@@ -11,7 +18,21 @@ label {
     font-weight: $font-weight-semibold;
 }
 
-input,
+input[type="text"],
+input[type="email"],
+input[type="url"],
+input[type="password"],
+input[type="search"],
+input[type="number"],
+input[type="tel"],
+input[type="range"],
+input[type="date"],
+input[type="month"],
+input[type="week"],
+input[type="time"],
+input[type="datetime"],
+input[type="datetime-local"],
+input[type="color"],
 select,
 textarea {
     // Couleurs
@@ -21,7 +42,7 @@ textarea {
     width: 100%;
     // Marges
     padding: 10px;
-    margin-bottom: 1rem;
+    margin-bottom: 1.5rem;
 
     // Bordure
     border: 5px solid black;

@@ -65,7 +65,7 @@ footer {
         }
     }
 
-    .site-info {
+    .site-information {
         // Flex
         display: -webkit-box;
         display: -ms-flexbox;
@@ -137,4 +137,8 @@ footer {
             font-size: .8rem;
         }
     }
+}
+
+body {
+    background-color: red;
 }

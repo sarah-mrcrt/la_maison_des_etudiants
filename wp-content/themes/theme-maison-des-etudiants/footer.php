@@ -46,7 +46,7 @@
 				</div>
 			</header>
 
-			<article class="sites-info">
+			<article class="site-information">
 				<?php
 					wp_nav_menu(
 						array(

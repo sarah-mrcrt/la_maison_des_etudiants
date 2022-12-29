@@ -1,5 +1,5 @@
 .artistes {
-    div {
+    div.grid-gallery {
         // Grid
         display: -ms-grid;
         display: grid;
@@ -73,7 +73,7 @@
     // Responsive
     //-------------------------
     @include responsive("lg-desktop") {
-        div {
+        div.grid-gallery {
             article {
                 figure img {
                     width: 160px;
@@ -83,7 +83,7 @@
     }
 
     @include responsive("md-desktop") {
-        div {
+        div.grid-gallery {
             -ms-grid-columns: (1fr)[1];
             grid-template-columns: repeat(1, 1fr);
 
@@ -100,7 +100,7 @@
     }
 
     @include responsive("md-tablet") {
-        div {
+        div.grid-gallery {
             article {
                 figure img {
                     width: 200px;
