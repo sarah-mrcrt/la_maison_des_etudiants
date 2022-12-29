@@ -16,7 +16,7 @@
 <!-- 7. WordPress will then import each of the posts, pages, comments, categories, etc. -->
 <!--    contained in this file into your site. -->
 
-	<!-- generator="WordPress/6.1.1" created="2022-12-29 13:35" -->
+	<!-- generator="WordPress/6.1.1" created="2022-12-29 14:41" -->
 <rss version="2.0"
 	xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"
 	xmlns:content="http://purl.org/rss/1.0/modules/content/"
@@ -29,13 +29,13 @@
 	<title>La maison des étudiants</title>
 	<link>http://localhost/la_maison_des_etudiants</link>
 	<description>Musée et école d&#039;arts numériques</description>
-	<pubDate>Thu, 29 Dec 2022 13:35:57 +0000</pubDate>
+	<pubDate>Thu, 29 Dec 2022 14:41:33 +0000</pubDate>
 	<language>fr-FR</language>
 	<wp:wxr_version>1.2</wp:wxr_version>
 	<wp:base_site_url>http://localhost/la_maison_des_etudiants</wp:base_site_url>
 	<wp:base_blog_url>http://localhost/la_maison_des_etudiants</wp:base_blog_url>
 
-		<wp:author><wp:author_id>1</wp:author_id><wp:author_login><![CDATA[root]]></wp:author_login><wp:author_email><![CDATA[mauriaucourt.sarah@gmail.com]]></wp:author_email><wp:author_display_name><![CDATA[root]]></wp:author_display_name><wp:author_first_name><![CDATA[]]></wp:author_first_name><wp:author_last_name><![CDATA[]]></wp:author_last_name></wp:author>
+		<wp:author><wp:author_id>1</wp:author_id><wp:author_login><![CDATA[root]]></wp:author_login><wp:author_email><![CDATA[mauriaucourt.sarah@gmail.com]]></wp:author_email><wp:author_display_name><![CDATA[root]]></wp:author_display_name><wp:author_first_name><![CDATA[Sarah]]></wp:author_first_name><wp:author_last_name><![CDATA[Mauriaucourt]]></wp:author_last_name></wp:author>
 
 		<wp:category>
 		<wp:term_id>1</wp:term_id>
@@ -97,8 +97,8 @@
 		<wp:post_id>44</wp:post_id>
 		<wp:post_date><![CDATA[2022-12-28 23:52:59]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2022-12-28 22:52:59]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2022-12-29 13:42:06]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2022-12-29 12:42:06]]></wp:post_modified_gmt>
+		<wp:post_modified><![CDATA[2022-12-29 14:43:23]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2022-12-29 13:43:23]]></wp:post_modified_gmt>
 		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
 		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
 		<wp:post_name><![CDATA[accueil-exposition]]></wp:post_name>
@@ -148,7 +148,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum suscipit iac
   <div>
       <p class="centered">{{paragraphe-2}}s</p>
       <figure>
-          <img src="{{image.url}}" alt="{{image.alt}}" />
+          <img src="{{image.url}}" alt="{{image.title}}" />
       </figure>
   </div>
 </section>]]></wp:meta_value>
@@ -205,13 +205,13 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum suscipit iac
 		<dc:creator><![CDATA[root]]></dc:creator>
 		<guid isPermaLink="false">http://localhost/la_maison_des_etudiants/lazyblocks/accueil-ledito/</guid>
 		<description></description>
-		<content:encoded><![CDATA[]]></content:encoded>
+		<content:encoded><![CDATA[<!-- wp:lzb-constructor/main /-->]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
 		<wp:post_id>45</wp:post_id>
 		<wp:post_date><![CDATA[2022-12-28 23:52:59]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2022-12-28 22:52:59]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2022-12-28 23:52:59]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2022-12-28 22:52:59]]></wp:post_modified_gmt>
+		<wp:post_modified><![CDATA[2022-12-29 14:43:20]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2022-12-29 13:43:20]]></wp:post_modified_gmt>
 		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
 		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
 		<wp:post_name><![CDATA[accueil-ledito]]></wp:post_name>
@@ -255,8 +255,8 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum suscipit iac
     <h2>{{titre}}</h2>
     <p>{{description}}</p>
     <figure>
-        <img src="{{photo1.url}}" alt="{{photo1.alt}}" class="col-6" />
-        <img src="{{photo2.url}}" alt="{{photo2.alt}}" class="col-6" />
+        <img src="{{photo1.url}}" alt="{{photo1.title}}" class="col-6" />
+        <img src="{{photo2.url}}" alt="{{photo2.title}}" class="col-6" />
     </figure>
 </section>]]></wp:meta_value>
 		</wp:postmeta>
@@ -280,6 +280,30 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum suscipit iac
 		<wp:meta_key><![CDATA[lazyblocks_supports_align]]></wp:meta_key>
 		<wp:meta_value><![CDATA[a:2:{i:0;s:4:"wide";i:1;s:4:"full";}]]></wp:meta_value>
 		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[lazyblocks_supports_classname]]></wp:meta_key>
+		<wp:meta_value><![CDATA[true]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[lazyblocks_supports_ghostkit_spacings]]></wp:meta_key>
+		<wp:meta_value><![CDATA[false]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[lazyblocks_supports_ghostkit_display]]></wp:meta_key>
+		<wp:meta_value><![CDATA[false]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[lazyblocks_supports_ghostkit_scroll_reveal]]></wp:meta_key>
+		<wp:meta_value><![CDATA[false]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[lazyblocks_supports_ghostkit_frame]]></wp:meta_key>
+		<wp:meta_value><![CDATA[false]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[lazyblocks_supports_ghostkit_custom_css]]></wp:meta_key>
+		<wp:meta_value><![CDATA[false]]></wp:meta_value>
+		</wp:postmeta>
 							</item>
 					<item>
 		<title><![CDATA[ARTISTE-yuyeung-lau]]></title>
@@ -293,8 +317,8 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum suscipit iac
 		<wp:post_id>87</wp:post_id>
 		<wp:post_date><![CDATA[2022-12-29 12:40:12]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2022-12-29 11:40:12]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2022-12-29 12:40:12]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2022-12-29 11:40:12]]></wp:post_modified_gmt>
+		<wp:post_modified><![CDATA[2022-12-29 14:41:22]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2022-12-29 13:41:22]]></wp:post_modified_gmt>
 		<wp:comment_status><![CDATA[open]]></wp:comment_status>
 		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
 		<wp:post_name><![CDATA[artiste-yuyeung-lau]]></wp:post_name>
@@ -329,6 +353,10 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum suscipit iac
 		<wp:meta_key><![CDATA[smush-stats]]></wp:meta_key>
 		<wp:meta_value><![CDATA[a:5:{s:12:"smushed-with";s:11:"re-smush-it";s:13:"original-size";i:37747;s:12:"smushed-size";i:37747;s:15:"savings-percent";d:0;s:10:"sizes-info";a:3:{s:4:"full";a:2:{s:8:"original";i:37747;s:10:"compressed";i:37747;}s:6:"medium";a:2:{s:8:"original";i:16964;s:10:"compressed";i:14316;}s:9:"thumbnail";a:2:{s:8:"original";i:6306;s:10:"compressed";i:5169;}}}]]></wp:meta_value>
 		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_attachment_image_alt]]></wp:meta_key>
+		<wp:meta_value><![CDATA[yuyeung lau]]></wp:meta_value>
+		</wp:postmeta>
 							</item>
 					<item>
 		<title><![CDATA[ARTISTE-Aurelien-thomas]]></title>
@@ -342,8 +370,8 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum suscipit iac
 		<wp:post_id>88</wp:post_id>
 		<wp:post_date><![CDATA[2022-12-29 12:40:12]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2022-12-29 11:40:12]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2022-12-29 12:40:12]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2022-12-29 11:40:12]]></wp:post_modified_gmt>
+		<wp:post_modified><![CDATA[2022-12-29 14:41:15]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2022-12-29 13:41:15]]></wp:post_modified_gmt>
 		<wp:comment_status><![CDATA[open]]></wp:comment_status>
 		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
 		<wp:post_name><![CDATA[artiste-aurelien-thomas]]></wp:post_name>
@@ -378,6 +406,10 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum suscipit iac
 		<wp:meta_key><![CDATA[smush-stats]]></wp:meta_key>
 		<wp:meta_value><![CDATA[a:5:{s:12:"smushed-with";s:11:"re-smush-it";s:13:"original-size";i:36324;s:12:"smushed-size";i:36324;s:15:"savings-percent";d:0;s:10:"sizes-info";a:3:{s:4:"full";a:2:{s:8:"original";i:36324;s:10:"compressed";i:36324;}s:6:"medium";a:2:{s:8:"original";i:15814;s:10:"compressed";i:13676;}s:9:"thumbnail";a:2:{s:8:"original";i:5829;s:10:"compressed";i:4950;}}}]]></wp:meta_value>
 		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_attachment_image_alt]]></wp:meta_key>
+		<wp:meta_value><![CDATA[Aurelien thomas]]></wp:meta_value>
+		</wp:postmeta>
 							</item>
 					<item>
 		<title><![CDATA[ARTISTE-brian-lundquist]]></title>
@@ -391,8 +423,8 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum suscipit iac
 		<wp:post_id>89</wp:post_id>
 		<wp:post_date><![CDATA[2022-12-29 12:40:13]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2022-12-29 11:40:13]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2022-12-29 12:40:13]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2022-12-29 11:40:13]]></wp:post_modified_gmt>
+		<wp:post_modified><![CDATA[2022-12-29 14:41:11]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2022-12-29 13:41:11]]></wp:post_modified_gmt>
 		<wp:comment_status><![CDATA[open]]></wp:comment_status>
 		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
 		<wp:post_name><![CDATA[artiste-brian-lundquist]]></wp:post_name>
@@ -427,6 +459,10 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum suscipit iac
 		<wp:meta_key><![CDATA[smush-stats]]></wp:meta_key>
 		<wp:meta_value><![CDATA[a:5:{s:12:"smushed-with";s:11:"re-smush-it";s:13:"original-size";i:67802;s:12:"smushed-size";i:67802;s:15:"savings-percent";d:0;s:10:"sizes-info";a:3:{s:4:"full";a:2:{s:8:"original";i:67802;s:10:"compressed";i:67802;}s:6:"medium";a:2:{s:8:"original";i:29764;s:10:"compressed";i:24784;}s:9:"thumbnail";a:2:{s:8:"original";i:9878;s:10:"compressed";i:8456;}}}]]></wp:meta_value>
 		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_attachment_image_alt]]></wp:meta_key>
+		<wp:meta_value><![CDATA[brian lundquist]]></wp:meta_value>
+		</wp:postmeta>
 							</item>
 					<item>
 		<title><![CDATA[ARTISTE-Cesar-rincon]]></title>
@@ -440,8 +476,8 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum suscipit iac
 		<wp:post_id>90</wp:post_id>
 		<wp:post_date><![CDATA[2022-12-29 12:40:13]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2022-12-29 11:40:13]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2022-12-29 12:40:13]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2022-12-29 11:40:13]]></wp:post_modified_gmt>
+		<wp:post_modified><![CDATA[2022-12-29 14:40:53]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2022-12-29 13:40:53]]></wp:post_modified_gmt>
 		<wp:comment_status><![CDATA[open]]></wp:comment_status>
 		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
 		<wp:post_name><![CDATA[artiste-cesar-rincon]]></wp:post_name>
@@ -476,6 +512,10 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum suscipit iac
 		<wp:meta_key><![CDATA[smush-stats]]></wp:meta_key>
 		<wp:meta_value><![CDATA[a:5:{s:12:"smushed-with";s:11:"re-smush-it";s:13:"original-size";i:59640;s:12:"smushed-size";i:59640;s:15:"savings-percent";d:0;s:10:"sizes-info";a:3:{s:4:"full";a:2:{s:8:"original";i:59640;s:10:"compressed";i:59640;}s:6:"medium";a:2:{s:8:"original";i:21294;s:10:"compressed";i:17648;}s:9:"thumbnail";a:2:{s:8:"original";i:6578;s:10:"compressed";i:5651;}}}]]></wp:meta_value>
 		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_attachment_image_alt]]></wp:meta_key>
+		<wp:meta_value><![CDATA[Cesar rincon]]></wp:meta_value>
+		</wp:postmeta>
 							</item>
 					<item>
 		<title><![CDATA[ARTISTE-Christian-buehner]]></title>
@@ -489,8 +529,8 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum suscipit iac
 		<wp:post_id>91</wp:post_id>
 		<wp:post_date><![CDATA[2022-12-29 12:40:14]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2022-12-29 11:40:14]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2022-12-29 12:40:14]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2022-12-29 11:40:14]]></wp:post_modified_gmt>
+		<wp:post_modified><![CDATA[2022-12-29 14:40:49]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2022-12-29 13:40:49]]></wp:post_modified_gmt>
 		<wp:comment_status><![CDATA[open]]></wp:comment_status>
 		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
 		<wp:post_name><![CDATA[artiste-christian-buehner]]></wp:post_name>
@@ -525,6 +565,10 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum suscipit iac
 		<wp:meta_key><![CDATA[smush-stats]]></wp:meta_key>
 		<wp:meta_value><![CDATA[a:5:{s:12:"smushed-with";s:11:"re-smush-it";s:13:"original-size";i:60257;s:12:"smushed-size";i:54813;s:15:"savings-percent";d:9.03;s:10:"sizes-info";a:3:{s:4:"full";a:2:{s:8:"original";i:60257;s:10:"compressed";i:54813;}s:6:"medium";a:2:{s:8:"original";i:21665;s:10:"compressed";i:18427;}s:9:"thumbnail";a:2:{s:8:"original";i:7355;s:10:"compressed";i:6287;}}}]]></wp:meta_value>
 		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_attachment_image_alt]]></wp:meta_key>
+		<wp:meta_value><![CDATA[Christian buehner]]></wp:meta_value>
+		</wp:postmeta>
 							</item>
 					<item>
 		<title><![CDATA[ARTISTE-Gift-habeshaw]]></title>
@@ -538,8 +582,8 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum suscipit iac
 		<wp:post_id>92</wp:post_id>
 		<wp:post_date><![CDATA[2022-12-29 12:40:15]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2022-12-29 11:40:15]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2022-12-29 12:40:15]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2022-12-29 11:40:15]]></wp:post_modified_gmt>
+		<wp:post_modified><![CDATA[2022-12-29 14:40:43]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2022-12-29 13:40:43]]></wp:post_modified_gmt>
 		<wp:comment_status><![CDATA[open]]></wp:comment_status>
 		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
 		<wp:post_name><![CDATA[artiste-gift-habeshaw]]></wp:post_name>
@@ -574,6 +618,10 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum suscipit iac
 		<wp:meta_key><![CDATA[smush-stats]]></wp:meta_key>
 		<wp:meta_value><![CDATA[a:5:{s:12:"smushed-with";s:11:"re-smush-it";s:13:"original-size";i:11351;s:12:"smushed-size";i:11351;s:15:"savings-percent";d:0;s:10:"sizes-info";a:3:{s:4:"full";a:2:{s:8:"original";i:11351;s:10:"compressed";i:11351;}s:6:"medium";a:2:{s:8:"original";i:5130;s:10:"compressed";i:3992;}s:9:"thumbnail";a:2:{s:8:"original";i:2027;s:10:"compressed";i:1489;}}}]]></wp:meta_value>
 		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_attachment_image_alt]]></wp:meta_key>
+		<wp:meta_value><![CDATA[Gift habeshaw]]></wp:meta_value>
+		</wp:postmeta>
 							</item>
 					<item>
 		<title><![CDATA[ARTISTE-Midas-hofstra]]></title>
@@ -587,8 +635,8 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum suscipit iac
 		<wp:post_id>93</wp:post_id>
 		<wp:post_date><![CDATA[2022-12-29 12:40:15]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2022-12-29 11:40:15]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2022-12-29 12:40:15]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2022-12-29 11:40:15]]></wp:post_modified_gmt>
+		<wp:post_modified><![CDATA[2022-12-29 14:40:39]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2022-12-29 13:40:39]]></wp:post_modified_gmt>
 		<wp:comment_status><![CDATA[open]]></wp:comment_status>
 		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
 		<wp:post_name><![CDATA[artiste-midas-hofstra]]></wp:post_name>
@@ -623,6 +671,10 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum suscipit iac
 		<wp:meta_key><![CDATA[smush-stats]]></wp:meta_key>
 		<wp:meta_value><![CDATA[a:5:{s:12:"smushed-with";s:11:"re-smush-it";s:13:"original-size";i:33788;s:12:"smushed-size";i:33788;s:15:"savings-percent";d:0;s:10:"sizes-info";a:3:{s:4:"full";a:2:{s:8:"original";i:33788;s:10:"compressed";i:33788;}s:6:"medium";a:2:{s:8:"original";i:13670;s:10:"compressed";i:11874;}s:9:"thumbnail";a:2:{s:8:"original";i:5048;s:10:"compressed";i:4282;}}}]]></wp:meta_value>
 		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_attachment_image_alt]]></wp:meta_key>
+		<wp:meta_value><![CDATA[Midas hofstra]]></wp:meta_value>
+		</wp:postmeta>
 							</item>
 					<item>
 		<title><![CDATA[ARTISTE-Noah-buscher]]></title>
@@ -636,8 +688,8 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum suscipit iac
 		<wp:post_id>94</wp:post_id>
 		<wp:post_date><![CDATA[2022-12-29 12:40:16]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2022-12-29 11:40:16]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2022-12-29 12:40:16]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2022-12-29 11:40:16]]></wp:post_modified_gmt>
+		<wp:post_modified><![CDATA[2022-12-29 14:40:35]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2022-12-29 13:40:35]]></wp:post_modified_gmt>
 		<wp:comment_status><![CDATA[open]]></wp:comment_status>
 		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
 		<wp:post_name><![CDATA[artiste-noah-buscher]]></wp:post_name>
@@ -672,6 +724,10 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum suscipit iac
 		<wp:meta_key><![CDATA[smush-stats]]></wp:meta_key>
 		<wp:meta_value><![CDATA[a:5:{s:12:"smushed-with";s:11:"re-smush-it";s:13:"original-size";i:29965;s:12:"smushed-size";i:29965;s:15:"savings-percent";d:0;s:10:"sizes-info";a:3:{s:4:"full";a:2:{s:8:"original";i:29965;s:10:"compressed";i:29965;}s:6:"medium";a:2:{s:8:"original";i:13958;s:10:"compressed";i:12119;}s:9:"thumbnail";a:2:{s:8:"original";i:5250;s:10:"compressed";i:4370;}}}]]></wp:meta_value>
 		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_attachment_image_alt]]></wp:meta_key>
+		<wp:meta_value><![CDATA[Noah buscher]]></wp:meta_value>
+		</wp:postmeta>
 							</item>
 					<item>
 		<title><![CDATA[ARTISTE-rever-mathylde]]></title>
@@ -685,8 +741,8 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum suscipit iac
 		<wp:post_id>95</wp:post_id>
 		<wp:post_date><![CDATA[2022-12-29 12:40:16]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2022-12-29 11:40:16]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2022-12-29 12:40:16]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2022-12-29 11:40:16]]></wp:post_modified_gmt>
+		<wp:post_modified><![CDATA[2022-12-29 14:40:30]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2022-12-29 13:40:30]]></wp:post_modified_gmt>
 		<wp:comment_status><![CDATA[open]]></wp:comment_status>
 		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
 		<wp:post_name><![CDATA[artiste-rever-mathylde]]></wp:post_name>
@@ -721,6 +777,10 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum suscipit iac
 		<wp:meta_key><![CDATA[smush-stats]]></wp:meta_key>
 		<wp:meta_value><![CDATA[a:5:{s:12:"smushed-with";s:11:"re-smush-it";s:13:"original-size";i:36621;s:12:"smushed-size";i:30116;s:15:"savings-percent";d:17.76;s:10:"sizes-info";a:3:{s:4:"full";a:2:{s:8:"original";i:36621;s:10:"compressed";i:30116;}s:6:"medium";a:2:{s:8:"original";i:11297;s:10:"compressed";i:10033;}s:9:"thumbnail";a:2:{s:8:"original";i:4503;s:10:"compressed";i:3790;}}}]]></wp:meta_value>
 		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_attachment_image_alt]]></wp:meta_key>
+		<wp:meta_value><![CDATA[rever mathylde]]></wp:meta_value>
+		</wp:postmeta>
 							</item>
 					<item>
 		<title><![CDATA[ARTISTE-rever-mathylde-2]]></title>
@@ -734,8 +794,8 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum suscipit iac
 		<wp:post_id>96</wp:post_id>
 		<wp:post_date><![CDATA[2022-12-29 12:40:17]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2022-12-29 11:40:17]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2022-12-29 12:40:17]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2022-12-29 11:40:17]]></wp:post_modified_gmt>
+		<wp:post_modified><![CDATA[2022-12-29 14:40:24]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2022-12-29 13:40:24]]></wp:post_modified_gmt>
 		<wp:comment_status><![CDATA[open]]></wp:comment_status>
 		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
 		<wp:post_name><![CDATA[artiste-rever-mathylde-2]]></wp:post_name>
@@ -770,6 +830,10 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum suscipit iac
 		<wp:meta_key><![CDATA[smush-stats]]></wp:meta_key>
 		<wp:meta_value><![CDATA[a:5:{s:12:"smushed-with";s:11:"re-smush-it";s:13:"original-size";i:30954;s:12:"smushed-size";i:30954;s:15:"savings-percent";d:0;s:10:"sizes-info";a:3:{s:4:"full";a:2:{s:8:"original";i:30954;s:10:"compressed";i:30954;}s:6:"medium";a:2:{s:8:"original";i:11604;s:10:"compressed";i:9992;}s:9:"thumbnail";a:2:{s:8:"original";i:4463;s:10:"compressed";i:3724;}}}]]></wp:meta_value>
 		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_attachment_image_alt]]></wp:meta_key>
+		<wp:meta_value><![CDATA[rever mathylde]]></wp:meta_value>
+		</wp:postmeta>
 							</item>
 					<item>
 		<title><![CDATA[ARTISTE-tim-zankert]]></title>
@@ -783,8 +847,8 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum suscipit iac
 		<wp:post_id>97</wp:post_id>
 		<wp:post_date><![CDATA[2022-12-29 12:40:17]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2022-12-29 11:40:17]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2022-12-29 12:40:17]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2022-12-29 11:40:17]]></wp:post_modified_gmt>
+		<wp:post_modified><![CDATA[2022-12-29 14:40:15]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2022-12-29 13:40:15]]></wp:post_modified_gmt>
 		<wp:comment_status><![CDATA[open]]></wp:comment_status>
 		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
 		<wp:post_name><![CDATA[artiste-tim-zankert]]></wp:post_name>
@@ -819,6 +883,10 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum suscipit iac
 		<wp:meta_key><![CDATA[smush-stats]]></wp:meta_key>
 		<wp:meta_value><![CDATA[a:5:{s:12:"smushed-with";s:11:"re-smush-it";s:13:"original-size";i:43738;s:12:"smushed-size";i:43738;s:15:"savings-percent";d:0;s:10:"sizes-info";a:3:{s:4:"full";a:2:{s:8:"original";i:43738;s:10:"compressed";i:43738;}s:6:"medium";a:2:{s:8:"original";i:18872;s:10:"compressed";i:16115;}s:9:"thumbnail";a:2:{s:8:"original";i:6100;s:10:"compressed";i:5227;}}}]]></wp:meta_value>
 		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_attachment_image_alt]]></wp:meta_key>
+		<wp:meta_value><![CDATA[tim zankert]]></wp:meta_value>
+		</wp:postmeta>
 							</item>
 					<item>
 		<title><![CDATA[CONTACT]]></title>
@@ -832,8 +900,8 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum suscipit iac
 		<wp:post_id>110</wp:post_id>
 		<wp:post_date><![CDATA[2022-12-29 13:44:58]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2022-12-29 12:44:58]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2022-12-29 13:44:58]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2022-12-29 12:44:58]]></wp:post_modified_gmt>
+		<wp:post_modified><![CDATA[2022-12-29 14:40:08]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2022-12-29 13:40:08]]></wp:post_modified_gmt>
 		<wp:comment_status><![CDATA[open]]></wp:comment_status>
 		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
 		<wp:post_name><![CDATA[contact-2]]></wp:post_name>
@@ -868,6 +936,10 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum suscipit iac
 		<wp:meta_key><![CDATA[smush-stats]]></wp:meta_key>
 		<wp:meta_value><![CDATA[a:5:{s:12:"smushed-with";s:11:"re-smush-it";s:13:"original-size";i:178754;s:12:"smushed-size";i:175959;s:15:"savings-percent";d:1.56;s:10:"sizes-info";a:5:{s:4:"full";a:2:{s:8:"original";i:178754;s:10:"compressed";i:175959;}s:6:"medium";a:2:{s:8:"original";i:17558;s:10:"compressed";i:14830;}s:5:"large";a:2:{s:8:"original";i:156569;s:10:"compressed";i:134165;}s:9:"thumbnail";a:2:{s:8:"original";i:8220;s:10:"compressed";i:7120;}s:12:"medium_large";a:2:{s:8:"original";i:97401;s:10:"compressed";i:82969;}}}]]></wp:meta_value>
 		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_attachment_image_alt]]></wp:meta_key>
+		<wp:meta_value><![CDATA[Contact]]></wp:meta_value>
+		</wp:postmeta>
 							</item>
 					<item>
 		<title><![CDATA[Exposition-Le-desordre]]></title>
@@ -881,8 +953,8 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum suscipit iac
 		<wp:post_id>111</wp:post_id>
 		<wp:post_date><![CDATA[2022-12-29 13:44:59]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2022-12-29 12:44:59]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2022-12-29 13:44:59]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2022-12-29 12:44:59]]></wp:post_modified_gmt>
+		<wp:post_modified><![CDATA[2022-12-29 14:40:04]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2022-12-29 13:40:04]]></wp:post_modified_gmt>
 		<wp:comment_status><![CDATA[open]]></wp:comment_status>
 		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
 		<wp:post_name><![CDATA[exposition-le-desordre]]></wp:post_name>
@@ -917,6 +989,10 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum suscipit iac
 		<wp:meta_key><![CDATA[smush-stats]]></wp:meta_key>
 		<wp:meta_value><![CDATA[a:5:{s:12:"smushed-with";s:11:"re-smush-it";s:13:"original-size";i:43975;s:12:"smushed-size";i:43975;s:15:"savings-percent";d:0;s:10:"sizes-info";a:5:{s:4:"full";a:2:{s:8:"original";i:43975;s:10:"compressed";i:43975;}s:6:"medium";a:2:{s:8:"original";i:7733;s:10:"compressed";i:6671;}s:5:"large";a:2:{s:8:"original";i:43095;s:10:"compressed";i:37545;}s:9:"thumbnail";a:2:{s:8:"original";i:4733;s:10:"compressed";i:4009;}s:12:"medium_large";a:2:{s:8:"original";i:28815;s:10:"compressed";i:25240;}}}]]></wp:meta_value>
 		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_attachment_image_alt]]></wp:meta_key>
+		<wp:meta_value><![CDATA[Exposition]]></wp:meta_value>
+		</wp:postmeta>
 							</item>
 					<item>
 		<title><![CDATA[EXPOSITION-oeuvre1]]></title>
@@ -930,8 +1006,8 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum suscipit iac
 		<wp:post_id>112</wp:post_id>
 		<wp:post_date><![CDATA[2022-12-29 13:45:00]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2022-12-29 12:45:00]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2022-12-29 13:45:00]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2022-12-29 12:45:00]]></wp:post_modified_gmt>
+		<wp:post_modified><![CDATA[2022-12-29 14:39:59]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2022-12-29 13:39:59]]></wp:post_modified_gmt>
 		<wp:comment_status><![CDATA[open]]></wp:comment_status>
 		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
 		<wp:post_name><![CDATA[exposition-oeuvre1]]></wp:post_name>
@@ -966,6 +1042,10 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum suscipit iac
 		<wp:meta_key><![CDATA[smush-stats]]></wp:meta_key>
 		<wp:meta_value><![CDATA[a:5:{s:12:"smushed-with";s:11:"re-smush-it";s:13:"original-size";i:442631;s:12:"smushed-size";i:373012;s:15:"savings-percent";d:15.73;s:10:"sizes-info";a:7:{s:4:"full";a:2:{s:8:"original";i:442631;s:10:"compressed";i:373012;}s:6:"medium";a:2:{s:8:"original";i:13790;s:10:"compressed";i:11696;}s:5:"large";a:2:{s:8:"original";i:83003;s:10:"compressed";i:71734;}s:9:"thumbnail";a:2:{s:8:"original";i:6837;s:10:"compressed";i:5814;}s:12:"medium_large";a:2:{s:8:"original";i:53279;s:10:"compressed";i:45922;}s:9:"1536x1536";a:2:{s:8:"original";i:162188;s:10:"compressed";i:139183;}s:9:"2048x2048";a:2:{s:8:"original";i:281908;s:10:"compressed";i:239877;}}}]]></wp:meta_value>
 		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_attachment_image_alt]]></wp:meta_key>
+		<wp:meta_value><![CDATA[Exposition oeuvre 1]]></wp:meta_value>
+		</wp:postmeta>
 							</item>
 					<item>
 		<title><![CDATA[EXPOSITION-oeuvre2]]></title>
@@ -979,8 +1059,8 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum suscipit iac
 		<wp:post_id>113</wp:post_id>
 		<wp:post_date><![CDATA[2022-12-29 13:45:09]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2022-12-29 12:45:09]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2022-12-29 13:45:09]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2022-12-29 12:45:09]]></wp:post_modified_gmt>
+		<wp:post_modified><![CDATA[2022-12-29 14:39:56]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2022-12-29 13:39:56]]></wp:post_modified_gmt>
 		<wp:comment_status><![CDATA[open]]></wp:comment_status>
 		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
 		<wp:post_name><![CDATA[exposition-oeuvre2]]></wp:post_name>
@@ -1015,6 +1095,10 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum suscipit iac
 		<wp:meta_key><![CDATA[smush-stats]]></wp:meta_key>
 		<wp:meta_value><![CDATA[a:5:{s:12:"smushed-with";s:11:"re-smush-it";s:13:"original-size";i:58499;s:12:"smushed-size";i:58410;s:15:"savings-percent";d:0.15;s:10:"sizes-info";a:5:{s:4:"full";a:2:{s:8:"original";i:58499;s:10:"compressed";i:58410;}s:6:"medium";a:2:{s:8:"original";i:7430;s:10:"compressed";i:6221;}s:5:"large";a:2:{s:8:"original";i:52893;s:10:"compressed";i:44962;}s:9:"thumbnail";a:2:{s:8:"original";i:4651;s:10:"compressed";i:3831;}s:12:"medium_large";a:2:{s:8:"original";i:32365;s:10:"compressed";i:27586;}}}]]></wp:meta_value>
 		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_attachment_image_alt]]></wp:meta_key>
+		<wp:meta_value><![CDATA[Exposition oeuvre 2]]></wp:meta_value>
+		</wp:postmeta>
 							</item>
 					<item>
 		<title><![CDATA[EXPOSITION-oeuvre3]]></title>
@@ -1028,8 +1112,8 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum suscipit iac
 		<wp:post_id>114</wp:post_id>
 		<wp:post_date><![CDATA[2022-12-29 13:45:10]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2022-12-29 12:45:10]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2022-12-29 13:45:10]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2022-12-29 12:45:10]]></wp:post_modified_gmt>
+		<wp:post_modified><![CDATA[2022-12-29 14:39:53]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2022-12-29 13:39:53]]></wp:post_modified_gmt>
 		<wp:comment_status><![CDATA[open]]></wp:comment_status>
 		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
 		<wp:post_name><![CDATA[exposition-oeuvre3]]></wp:post_name>
@@ -1064,6 +1148,10 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum suscipit iac
 		<wp:meta_key><![CDATA[smush-stats]]></wp:meta_key>
 		<wp:meta_value><![CDATA[a:5:{s:12:"smushed-with";s:11:"re-smush-it";s:13:"original-size";i:51127;s:12:"smushed-size";i:51127;s:15:"savings-percent";d:0;s:10:"sizes-info";a:5:{s:4:"full";a:2:{s:8:"original";i:51127;s:10:"compressed";i:51127;}s:6:"medium";a:2:{s:8:"original";i:5776;s:10:"compressed";i:4730;}s:5:"large";a:2:{s:8:"original";i:47798;s:10:"compressed";i:39757;}s:9:"thumbnail";a:2:{s:8:"original";i:3899;s:10:"compressed";i:3193;}s:12:"medium_large";a:2:{s:8:"original";i:27852;s:10:"compressed";i:23264;}}}]]></wp:meta_value>
 		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_attachment_image_alt]]></wp:meta_key>
+		<wp:meta_value><![CDATA[Exposition oeuvre 3]]></wp:meta_value>
+		</wp:postmeta>
 							</item>
 					<item>
 		<title><![CDATA[FAQ-Artistes-workshop]]></title>
@@ -1077,8 +1165,8 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum suscipit iac
 		<wp:post_id>115</wp:post_id>
 		<wp:post_date><![CDATA[2022-12-29 13:45:11]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2022-12-29 12:45:11]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2022-12-29 13:45:11]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2022-12-29 12:45:11]]></wp:post_modified_gmt>
+		<wp:post_modified><![CDATA[2022-12-29 14:39:45]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2022-12-29 13:39:45]]></wp:post_modified_gmt>
 		<wp:comment_status><![CDATA[open]]></wp:comment_status>
 		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
 		<wp:post_name><![CDATA[faq-artistes-workshop]]></wp:post_name>
@@ -1113,6 +1201,10 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum suscipit iac
 		<wp:meta_key><![CDATA[smush-stats]]></wp:meta_key>
 		<wp:meta_value><![CDATA[a:5:{s:12:"smushed-with";s:11:"re-smush-it";s:13:"original-size";i:105321;s:12:"smushed-size";i:104077;s:15:"savings-percent";d:1.18;s:10:"sizes-info";a:5:{s:4:"full";a:2:{s:8:"original";i:105321;s:10:"compressed";i:104077;}s:6:"medium";a:2:{s:8:"original";i:15376;s:10:"compressed";i:12882;}s:5:"large";a:2:{s:8:"original";i:95326;s:10:"compressed";i:82874;}s:9:"thumbnail";a:2:{s:8:"original";i:8063;s:10:"compressed";i:6839;}s:12:"medium_large";a:2:{s:8:"original";i:63093;s:10:"compressed";i:54353;}}}]]></wp:meta_value>
 		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_attachment_image_alt]]></wp:meta_key>
+		<wp:meta_value><![CDATA[FAQ]]></wp:meta_value>
+		</wp:postmeta>
 							</item>
 					<item>
 		<title><![CDATA[ARTISTES-workshop]]></title>
@@ -1126,8 +1218,8 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum suscipit iac
 		<wp:post_id>120</wp:post_id>
 		<wp:post_date><![CDATA[2022-12-29 14:07:58]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2022-12-29 13:07:58]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2022-12-29 14:07:58]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2022-12-29 13:07:58]]></wp:post_modified_gmt>
+		<wp:post_modified><![CDATA[2022-12-29 14:39:15]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2022-12-29 13:39:15]]></wp:post_modified_gmt>
 		<wp:comment_status><![CDATA[open]]></wp:comment_status>
 		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
 		<wp:post_name><![CDATA[artistes-workshop]]></wp:post_name>
@@ -1137,14 +1229,14 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum suscipit iac
 		<wp:post_type><![CDATA[attachment]]></wp:post_type>
 		<wp:post_password><![CDATA[]]></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
-						<wp:attachment_url><![CDATA[http://localhost/la_maison_des_etudiants/wp-content/uploads/2022/12/ARTISTES-workshop.jpg]]></wp:attachment_url>
+						<wp:attachment_url><![CDATA[http://localhost/la_maison_des_etudiants/wp-content/uploads/2022/12/ARTISTES-workshop-e1672321167469.jpg]]></wp:attachment_url>
 											<wp:postmeta>
 		<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
-		<wp:meta_value><![CDATA[2022/12/ARTISTES-workshop.jpg]]></wp:meta_value>
+		<wp:meta_value><![CDATA[2022/12/ARTISTES-workshop-e1672321167469.jpg]]></wp:meta_value>
 		</wp:postmeta>
 							<wp:postmeta>
 		<wp:meta_key><![CDATA[_wp_attachment_metadata]]></wp:meta_key>
-		<wp:meta_value><![CDATA[a:6:{s:5:"width";i:1720;s:6:"height";i:968;s:4:"file";s:29:"2022/12/ARTISTES-workshop.jpg";s:8:"filesize";i:532725;s:5:"sizes";a:5:{s:6:"medium";a:5:{s:4:"file";s:29:"ARTISTES-workshop-300x169.jpg";s:5:"width";i:300;s:6:"height";i:169;s:9:"mime-type";s:10:"image/jpeg";s:8:"filesize";i:21616;}s:5:"large";a:5:{s:4:"file";s:30:"ARTISTES-workshop-1024x576.jpg";s:5:"width";i:1024;s:6:"height";i:576;s:9:"mime-type";s:10:"image/jpeg";s:8:"filesize";i:161218;}s:9:"thumbnail";a:5:{s:4:"file";s:29:"ARTISTES-workshop-150x150.jpg";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/jpeg";s:8:"filesize";i:11103;}s:12:"medium_large";a:5:{s:4:"file";s:29:"ARTISTES-workshop-768x432.jpg";s:5:"width";i:768;s:6:"height";i:432;s:9:"mime-type";s:10:"image/jpeg";s:8:"filesize";i:101360;}s:9:"1536x1536";a:5:{s:4:"file";s:30:"ARTISTES-workshop-1536x864.jpg";s:5:"width";i:1536;s:6:"height";i:864;s:9:"mime-type";s:10:"image/jpeg";s:8:"filesize";i:304341;}}s:10:"image_meta";a:12:{s:8:"aperture";s:1:"0";s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";s:1:"0";s:9:"copyright";s:0:"";s:12:"focal_length";s:1:"0";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:1:"0";s:5:"title";s:0:"";s:11:"orientation";s:1:"0";s:8:"keywords";a:0:{}}}]]></wp:meta_value>
+		<wp:meta_value><![CDATA[a:6:{s:5:"width";i:1290;s:6:"height";i:726;s:4:"file";s:44:"2022/12/ARTISTES-workshop-e1672321167469.jpg";s:8:"filesize";i:532725;s:5:"sizes";a:5:{s:6:"medium";a:5:{s:4:"file";s:44:"ARTISTES-workshop-e1672321167469-300x169.jpg";s:5:"width";i:300;s:6:"height";i:169;s:9:"mime-type";s:10:"image/jpeg";s:8:"filesize";i:21400;}s:5:"large";a:5:{s:4:"file";s:45:"ARTISTES-workshop-e1672321167469-1024x576.jpg";s:5:"width";i:1024;s:6:"height";i:576;s:9:"mime-type";s:10:"image/jpeg";s:8:"filesize";i:150410;}s:9:"thumbnail";a:5:{s:4:"file";s:44:"ARTISTES-workshop-e1672321167469-150x150.jpg";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/jpeg";s:8:"filesize";i:11004;}s:12:"medium_large";a:5:{s:4:"file";s:44:"ARTISTES-workshop-e1672321167469-768x432.jpg";s:5:"width";i:768;s:6:"height";i:432;s:9:"mime-type";s:10:"image/jpeg";s:8:"filesize";i:96513;}s:9:"1536x1536";a:5:{s:4:"file";s:30:"ARTISTES-workshop-1536x864.jpg";s:5:"width";i:1536;s:6:"height";i:864;s:9:"mime-type";s:10:"image/jpeg";s:8:"filesize";i:304341;}}s:10:"image_meta";a:12:{s:8:"aperture";s:1:"0";s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";s:1:"0";s:9:"copyright";s:0:"";s:12:"focal_length";s:1:"0";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:1:"0";s:5:"title";s:0:"";s:11:"orientation";s:1:"0";s:8:"keywords";a:0:{}}}]]></wp:meta_value>
 		</wp:postmeta>
 							<wp:postmeta>
 		<wp:meta_key><![CDATA[original-file]]></wp:meta_key>
@@ -1161,6 +1253,14 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum suscipit iac
 							<wp:postmeta>
 		<wp:meta_key><![CDATA[smush-stats]]></wp:meta_key>
 		<wp:meta_value><![CDATA[a:5:{s:12:"smushed-with";s:11:"re-smush-it";s:13:"original-size";i:532725;s:12:"smushed-size";i:300870;s:15:"savings-percent";d:43.52;s:10:"sizes-info";a:6:{s:4:"full";a:2:{s:8:"original";i:532725;s:10:"compressed";i:300870;}s:6:"medium";a:2:{s:8:"original";i:21616;s:10:"compressed";i:17691;}s:5:"large";a:2:{s:8:"original";i:161218;s:10:"compressed";i:135539;}s:9:"thumbnail";a:2:{s:8:"original";i:11103;s:10:"compressed";i:8958;}s:12:"medium_large";a:2:{s:8:"original";i:101360;s:10:"compressed";i:84535;}s:9:"1536x1536";a:2:{s:8:"original";i:304341;s:10:"compressed";i:258677;}}}]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_attachment_image_alt]]></wp:meta_key>
+		<wp:meta_value><![CDATA[Artistes workshop]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_attachment_backup_sizes]]></wp:meta_key>
+		<wp:meta_value><![CDATA[a:6:{s:9:"full-orig";a:3:{s:5:"width";i:1720;s:6:"height";i:968;s:4:"file";s:21:"ARTISTES-workshop.jpg";}s:14:"thumbnail-orig";a:5:{s:4:"file";s:29:"ARTISTES-workshop-150x150.jpg";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/jpeg";s:8:"filesize";i:11103;}s:11:"medium-orig";a:5:{s:4:"file";s:29:"ARTISTES-workshop-300x169.jpg";s:5:"width";i:300;s:6:"height";i:169;s:9:"mime-type";s:10:"image/jpeg";s:8:"filesize";i:21616;}s:17:"medium_large-orig";a:5:{s:4:"file";s:29:"ARTISTES-workshop-768x432.jpg";s:5:"width";i:768;s:6:"height";i:432;s:9:"mime-type";s:10:"image/jpeg";s:8:"filesize";i:101360;}s:10:"large-orig";a:5:{s:4:"file";s:30:"ARTISTES-workshop-1024x576.jpg";s:5:"width";i:1024;s:6:"height";i:576;s:9:"mime-type";s:10:"image/jpeg";s:8:"filesize";i:161218;}s:14:"1536x1536-orig";a:5:{s:4:"file";s:30:"ARTISTES-workshop-1536x864.jpg";s:5:"width";i:1536;s:6:"height";i:864;s:9:"mime-type";s:10:"image/jpeg";s:8:"filesize";i:304341;}}]]></wp:meta_value>
 		</wp:postmeta>
 							</item>
 					<item>
@@ -1744,8 +1844,8 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum suscipit iac
 
 <!-- wp:lazyblock/card-artiste {"fiche-artiste":"%5B%7B%22pseudo%22:%22Aur%C3%A9lien%20Thomas%22,%22description%22:%22Artiste%20contemporain%20cr%C3%A9ant%20des%20peintures%20figuratives%20classiques%22,%22ville%22:%22Arras%22,%22pays%22:%22%20France%22,%22photo-de-profil%22:%7B%22alt%22:%22%22,%22title%22:%22ARTISTE-Aurelien-thomas%22,%22caption%22:%22%22,%22description%22:%22%22,%22id%22:88,%22link%22:%22http://localhost/la_maison_des_etudiants/artiste-aurelien-thomas/%22,%22url%22:%22http://localhost/la_maison_des_etudiants/wp-content/uploads/2022/12/ARTISTE-Aurelien-thomas.jpg%22,%22sizes%22:%7B%22thumbnail%22:%7B%22height%22:150,%22width%22:150,%22url%22:%22http://localhost/la_maison_des_etudiants/wp-content/uploads/2022/12/ARTISTE-Aurelien-thomas-150x150.jpg%22,%22orientation%22:%22landscape%22%7D,%22medium%22:%7B%22height%22:300,%22width%22:300,%22url%22:%22http://localhost/la_maison_des_etudiants/wp-content/uploads/2022/12/ARTISTE-Aurelien-thomas-300x300.jpg%22,%22orientation%22:%22landscape%22%7D,%22full%22:%7B%22url%22:%22http://localhost/la_maison_des_etudiants/wp-content/uploads/2022/12/ARTISTE-Aurelien-thomas.jpg%22,%22height%22:640,%22width%22:640,%22orientation%22:%22landscape%22%7D%7D%7D%7D,%7B%22pseudo%22:%22Cesar%20Ricon%22,%22description%22:%22Artiste%20contemporain%20cr%C3%A9ant%20des%20peintures%20figuratives%20classiques%22,%22ville%22:%22Venise%22,%22pays%22:%22%20Italie%22,%22photo-de-profil%22:%7B%22alt%22:%22%22,%22title%22:%22ARTISTE-Cesar-rincon%22,%22caption%22:%22%22,%22description%22:%22%22,%22id%22:90,%22link%22:%22http://localhost/la_maison_des_etudiants/artiste-cesar-rincon/%22,%22url%22:%22http://localhost/la_maison_des_etudiants/wp-content/uploads/2022/12/ARTISTE-Cesar-rincon.jpg%22,%22sizes%22:%7B%22thumbnail%22:%7B%22height%22:150,%22width%22:150,%22url%22:%22http://localhost/la_maison_des_etudiants/wp-content/uploads/2022/12/ARTISTE-Cesar-rincon-150x150.jpg%22,%22orientation%22:%22landscape%22%7D,%22medium%22:%7B%22height%22:300,%22width%22:300,%22url%22:%22http://localhost/la_maison_des_etudiants/wp-content/uploads/2022/12/ARTISTE-Cesar-rincon-300x300.jpg%22,%22orientation%22:%22landscape%22%7D,%22full%22:%7B%22url%22:%22http://localhost/la_maison_des_etudiants/wp-content/uploads/2022/12/ARTISTE-Cesar-rincon.jpg%22,%22height%22:640,%22width%22:640,%22orientation%22:%22landscape%22%7D%7D%7D%7D,%7B%22pseudo%22:%22Mathylde%20Rever%22,%22description%22:%22Artiste%20contemporain%20cr%C3%A9ant%20des%20peintures%20figuratives%20classiques%22,%22ville%22:%22Bruxelles%22,%22pays%22:%22%20Belgique%22,%22photo-de-profil%22:%7B%22alt%22:%22%22,%22title%22:%22ARTISTE-rever-mathylde%22,%22caption%22:%22%22,%22description%22:%22%22,%22id%22:95,%22link%22:%22http://localhost/la_maison_des_etudiants/artiste-rever-mathylde/%22,%22url%22:%22http://localhost/la_maison_des_etudiants/wp-content/uploads/2022/12/ARTISTE-rever-mathylde.jpg%22,%22sizes%22:%7B%22thumbnail%22:%7B%22height%22:150,%22width%22:150,%22url%22:%22http://localhost/la_maison_des_etudiants/wp-content/uploads/2022/12/ARTISTE-rever-mathylde-150x150.jpg%22,%22orientation%22:%22landscape%22%7D,%22medium%22:%7B%22height%22:300,%22width%22:281,%22url%22:%22http://localhost/la_maison_des_etudiants/wp-content/uploads/2022/12/ARTISTE-rever-mathylde-281x300.jpg%22,%22orientation%22:%22portrait%22%7D,%22full%22:%7B%22url%22:%22http://localhost/la_maison_des_etudiants/wp-content/uploads/2022/12/ARTISTE-rever-mathylde.jpg%22,%22height%22:684,%22width%22:640,%22orientation%22:%22portrait%22%7D%7D%7D%7D,%7B%22pseudo%22:%22Lau%20yuyeung%22,%22description%22:%22Artiste%20contemporain%20cr%C3%A9ant%20des%20peintures%20figuratives%20classiques%22,%22ville%22:%22Alsace%22,%22pays%22:%22%20France%22,%22photo-de-profil%22:%7B%22alt%22:%22%22,%22title%22:%22ARTISTE-yuyeung-lau%22,%22caption%22:%22%22,%22description%22:%22%22,%22id%22:87,%22link%22:%22http://localhost/la_maison_des_etudiants/artiste-yuyeung-lau/%22,%22url%22:%22http://localhost/la_maison_des_etudiants/wp-content/uploads/2022/12/ARTISTE-yuyeung-lau.jpg%22,%22sizes%22:%7B%22thumbnail%22:%7B%22height%22:150,%22width%22:150,%22url%22:%22http://localhost/la_maison_des_etudiants/wp-content/uploads/2022/12/ARTISTE-yuyeung-lau-150x150.jpg%22,%22orientation%22:%22landscape%22%7D,%22medium%22:%7B%22height%22:300,%22width%22:300,%22url%22:%22http://localhost/la_maison_des_etudiants/wp-content/uploads/2022/12/ARTISTE-yuyeung-lau-300x300.jpg%22,%22orientation%22:%22landscape%22%7D,%22full%22:%7B%22url%22:%22http://localhost/la_maison_des_etudiants/wp-content/uploads/2022/12/ARTISTE-yuyeung-lau.jpg%22,%22height%22:640,%22width%22:640,%22orientation%22:%22landscape%22%7D%7D%7D%7D%5D","hyperlink":"http://localhost/la_maison_des_etudiants/artistes/","blockId":"Z1lNPPa","blockUniqueClass":"lazyblock-card-artiste-Z1lNPPa"} -->
 <!-- wp:buttons -->
-<div class="wp-block-buttons"><!-- wp:button -->
-<div class="wp-block-button"><a class="wp-block-button__link wp-element-button">Voir plus d'artistes</a></div>
+<div class="wp-block-buttons"><!-- wp:button {"textColor":"black","style":{"color":{"background":"#ffffff00"}},"className":"is-style-fill"} -->
+<div class="wp-block-button is-style-fill"><a href="http://localhost/la_maison_des_etudiants/artistes/" style="background-color:#ffffff00">Voir plus d'artistes</a></div>
 <!-- /wp:button --></div>
 <!-- /wp:buttons -->
 <!-- /wp:lazyblock/card-artiste -->]]></content:encoded>
@@ -1753,8 +1853,8 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum suscipit iac
 		<wp:post_id>41</wp:post_id>
 		<wp:post_date><![CDATA[2022-12-27 16:59:11]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2022-12-27 15:59:11]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2022-12-29 14:33:46]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2022-12-29 13:33:46]]></wp:post_modified_gmt>
+		<wp:post_modified><![CDATA[2022-12-29 14:53:26]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2022-12-29 13:53:26]]></wp:post_modified_gmt>
 		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
 		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
 		<wp:post_name><![CDATA[accueil]]></wp:post_name>
@@ -1777,8 +1877,8 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum suscipit iac
 		<wp:post_id>46</wp:post_id>
 		<wp:post_date><![CDATA[2022-12-28 23:52:59]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2022-12-28 22:52:59]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2022-12-29 13:37:16]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2022-12-29 12:37:16]]></wp:post_modified_gmt>
+		<wp:post_modified><![CDATA[2022-12-29 14:43:26]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2022-12-29 13:43:26]]></wp:post_modified_gmt>
 		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
 		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
 		<wp:post_name><![CDATA[card-artiste]]></wp:post_name>
@@ -1825,7 +1925,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum suscipit iac
     {{#each fiche-artiste}}
       <article>
           <figure>
-              <img src="{{photo-de-profil.url}}" alt="{{photo-de-profil.src}}">
+              <img src="{{photo-de-profil.url}}" alt="{{photo-de-profil.title}}">
               <figcaption>
                   <h3>{{pseudo}}</h3>
                   <p>{{description}}</p>
@@ -1900,8 +2000,8 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum suscipit iac
 		<wp:post_id>47</wp:post_id>
 		<wp:post_date><![CDATA[2022-12-28 23:52:59]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2022-12-28 22:52:59]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2022-12-29 14:31:34]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2022-12-29 13:31:34]]></wp:post_modified_gmt>
+		<wp:post_modified><![CDATA[2022-12-29 14:42:23]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2022-12-29 13:42:23]]></wp:post_modified_gmt>
 		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
 		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
 		<wp:post_name><![CDATA[section-hero-2]]></wp:post_name>
@@ -1943,7 +2043,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum suscipit iac
 		<wp:meta_key><![CDATA[lazyblocks_code_frontend_html]]></wp:meta_key>
 		<wp:meta_value><![CDATA[<section class="section-hero">
   <figure>
-      <img src="{{image-de-fond.url}}" alt="{{image-de-fond.alt}}">
+      <img src="{{image-de-fond.url}}" alt="{{image-de-fond.title}}">
       <figcaption>
           <h1>{{titre}}</h1>
           <p>{{description}}</p>
@@ -2106,15 +2206,15 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum suscipit iac
 		<dc:creator><![CDATA[root]]></dc:creator>
 		<guid isPermaLink="false">http://localhost/la_maison_des_etudiants/?page_id=60</guid>
 		<description></description>
-		<content:encoded><![CDATA[<!-- wp:lazyblock/section-hero {"titre":"Artistes","description":"Artistes seniors et étudiant-artistes collaborent ","image-de-fond":"%7B%22alt%22:%22%22,%22title%22:%22ARTISTES-workshop%22,%22caption%22:%22%22,%22description%22:%22%22,%22id%22:120,%22link%22:%22http://localhost/la_maison_des_etudiants/artistes/artistes-workshop/%22,%22url%22:%22http://localhost/la_maison_des_etudiants/wp-content/uploads/2022/12/ARTISTES-workshop.jpg%22,%22sizes%22:%7B%22thumbnail%22:%7B%22height%22:150,%22width%22:150,%22url%22:%22http://localhost/la_maison_des_etudiants/wp-content/uploads/2022/12/ARTISTES-workshop-150x150.jpg%22,%22orientation%22:%22landscape%22%7D,%22medium%22:%7B%22height%22:169,%22width%22:300,%22url%22:%22http://localhost/la_maison_des_etudiants/wp-content/uploads/2022/12/ARTISTES-workshop-300x169.jpg%22,%22orientation%22:%22landscape%22%7D,%22large%22:%7B%22height%22:360,%22width%22:640,%22url%22:%22http://localhost/la_maison_des_etudiants/wp-content/uploads/2022/12/ARTISTES-workshop-1024x576.jpg%22,%22orientation%22:%22landscape%22%7D,%22full%22:%7B%22url%22:%22http://localhost/la_maison_des_etudiants/wp-content/uploads/2022/12/ARTISTES-workshop.jpg%22,%22height%22:968,%22width%22:1720,%22orientation%22:%22landscape%22%7D%7D%7D","blockId":"ZJhB8C","blockUniqueClass":"lazyblock-section-hero-ZJhB8C"} /-->
+		<content:encoded><![CDATA[<!-- wp:lazyblock/section-hero {"titre":"Artistes","description":"Découvrez les artistes à l'origine de l'exposition. Artistes seniors et étudiant-artistes collaborent ensemble pour vous offrir le meilleur !  ","image-de-fond":"%7B%22alt%22:%22%22,%22title%22:%22ARTISTES-workshop%22,%22caption%22:%22%22,%22description%22:%22%22,%22id%22:120,%22link%22:%22http://localhost/la_maison_des_etudiants/artistes/artistes-workshop/%22,%22url%22:%22http://localhost/la_maison_des_etudiants/wp-content/uploads/2022/12/ARTISTES-workshop.jpg%22,%22sizes%22:%7B%22thumbnail%22:%7B%22height%22:150,%22width%22:150,%22url%22:%22http://localhost/la_maison_des_etudiants/wp-content/uploads/2022/12/ARTISTES-workshop-150x150.jpg%22,%22orientation%22:%22landscape%22%7D,%22medium%22:%7B%22height%22:169,%22width%22:300,%22url%22:%22http://localhost/la_maison_des_etudiants/wp-content/uploads/2022/12/ARTISTES-workshop-300x169.jpg%22,%22orientation%22:%22landscape%22%7D,%22large%22:%7B%22height%22:360,%22width%22:640,%22url%22:%22http://localhost/la_maison_des_etudiants/wp-content/uploads/2022/12/ARTISTES-workshop-1024x576.jpg%22,%22orientation%22:%22landscape%22%7D,%22full%22:%7B%22url%22:%22http://localhost/la_maison_des_etudiants/wp-content/uploads/2022/12/ARTISTES-workshop.jpg%22,%22height%22:968,%22width%22:1720,%22orientation%22:%22landscape%22%7D%7D%7D","blockId":"ZJhB8C","blockUniqueClass":"lazyblock-section-hero-ZJhB8C"} /-->
 
 <!-- wp:lazyblock/card-artiste {"fiche-artiste":"%5B%7B%22pseudo%22:%22Aur%C3%A9lien%20Thomas%22,%22description%22:%22Artiste%20contemporain%20cr%C3%A9ant%20des%20peintures%20figuratives%20classiques%22,%22ville%22:%22Arras%22,%22pays%22:%22%20France%22,%22photo-de-profil%22:%7B%22alt%22:%22%22,%22title%22:%22ARTISTE-Aurelien-thomas%22,%22caption%22:%22%22,%22description%22:%22%22,%22id%22:88,%22link%22:%22http://localhost/la_maison_des_etudiants/artiste-aurelien-thomas/%22,%22url%22:%22http://localhost/la_maison_des_etudiants/wp-content/uploads/2022/12/ARTISTE-Aurelien-thomas.jpg%22,%22sizes%22:%7B%22thumbnail%22:%7B%22height%22:150,%22width%22:150,%22url%22:%22http://localhost/la_maison_des_etudiants/wp-content/uploads/2022/12/ARTISTE-Aurelien-thomas-150x150.jpg%22,%22orientation%22:%22landscape%22%7D,%22medium%22:%7B%22height%22:300,%22width%22:300,%22url%22:%22http://localhost/la_maison_des_etudiants/wp-content/uploads/2022/12/ARTISTE-Aurelien-thomas-300x300.jpg%22,%22orientation%22:%22landscape%22%7D,%22full%22:%7B%22url%22:%22http://localhost/la_maison_des_etudiants/wp-content/uploads/2022/12/ARTISTE-Aurelien-thomas.jpg%22,%22height%22:640,%22width%22:640,%22orientation%22:%22landscape%22%7D%7D%7D%7D,%7B%22pseudo%22:%22Cesar%20Ricon%22,%22description%22:%22Artiste%20contemporain%20cr%C3%A9ant%20des%20peintures%20figuratives%20classiques%22,%22ville%22:%22Venise%22,%22pays%22:%22%20Italie%22,%22photo-de-profil%22:%7B%22alt%22:%22%22,%22title%22:%22ARTISTE-Cesar-rincon%22,%22caption%22:%22%22,%22description%22:%22%22,%22id%22:90,%22link%22:%22http://localhost/la_maison_des_etudiants/artiste-cesar-rincon/%22,%22url%22:%22http://localhost/la_maison_des_etudiants/wp-content/uploads/2022/12/ARTISTE-Cesar-rincon.jpg%22,%22sizes%22:%7B%22thumbnail%22:%7B%22height%22:150,%22width%22:150,%22url%22:%22http://localhost/la_maison_des_etudiants/wp-content/uploads/2022/12/ARTISTE-Cesar-rincon-150x150.jpg%22,%22orientation%22:%22landscape%22%7D,%22medium%22:%7B%22height%22:300,%22width%22:300,%22url%22:%22http://localhost/la_maison_des_etudiants/wp-content/uploads/2022/12/ARTISTE-Cesar-rincon-300x300.jpg%22,%22orientation%22:%22landscape%22%7D,%22full%22:%7B%22url%22:%22http://localhost/la_maison_des_etudiants/wp-content/uploads/2022/12/ARTISTE-Cesar-rincon.jpg%22,%22height%22:640,%22width%22:640,%22orientation%22:%22landscape%22%7D%7D%7D%7D,%7B%22pseudo%22:%22Mathylde%20Rever%22,%22description%22:%22Artiste%20contemporain%20cr%C3%A9ant%20des%20peintures%20figuratives%20classiques%22,%22ville%22:%22Bruxelles%22,%22pays%22:%22%20Belgique%22,%22photo-de-profil%22:%7B%22alt%22:%22%22,%22title%22:%22ARTISTE-rever-mathylde%22,%22caption%22:%22%22,%22description%22:%22%22,%22id%22:95,%22link%22:%22http://localhost/la_maison_des_etudiants/artiste-rever-mathylde/%22,%22url%22:%22http://localhost/la_maison_des_etudiants/wp-content/uploads/2022/12/ARTISTE-rever-mathylde.jpg%22,%22sizes%22:%7B%22thumbnail%22:%7B%22height%22:150,%22width%22:150,%22url%22:%22http://localhost/la_maison_des_etudiants/wp-content/uploads/2022/12/ARTISTE-rever-mathylde-150x150.jpg%22,%22orientation%22:%22landscape%22%7D,%22medium%22:%7B%22height%22:300,%22width%22:281,%22url%22:%22http://localhost/la_maison_des_etudiants/wp-content/uploads/2022/12/ARTISTE-rever-mathylde-281x300.jpg%22,%22orientation%22:%22portrait%22%7D,%22full%22:%7B%22url%22:%22http://localhost/la_maison_des_etudiants/wp-content/uploads/2022/12/ARTISTE-rever-mathylde.jpg%22,%22height%22:684,%22width%22:640,%22orientation%22:%22portrait%22%7D%7D%7D%7D,%7B%22pseudo%22:%22Lau%20yuyeung%22,%22description%22:%22Artiste%20contemporain%20cr%C3%A9ant%20des%20peintures%20figuratives%20classiques%22,%22ville%22:%22Alsace%22,%22pays%22:%22%20France%22,%22photo-de-profil%22:%7B%22alt%22:%22%22,%22title%22:%22ARTISTE-yuyeung-lau%22,%22caption%22:%22%22,%22description%22:%22%22,%22id%22:87,%22link%22:%22http://localhost/la_maison_des_etudiants/artiste-yuyeung-lau/%22,%22url%22:%22http://localhost/la_maison_des_etudiants/wp-content/uploads/2022/12/ARTISTE-yuyeung-lau.jpg%22,%22sizes%22:%7B%22thumbnail%22:%7B%22height%22:150,%22width%22:150,%22url%22:%22http://localhost/la_maison_des_etudiants/wp-content/uploads/2022/12/ARTISTE-yuyeung-lau-150x150.jpg%22,%22orientation%22:%22landscape%22%7D,%22medium%22:%7B%22height%22:300,%22width%22:300,%22url%22:%22http://localhost/la_maison_des_etudiants/wp-content/uploads/2022/12/ARTISTE-yuyeung-lau-300x300.jpg%22,%22orientation%22:%22landscape%22%7D,%22full%22:%7B%22url%22:%22http://localhost/la_maison_des_etudiants/wp-content/uploads/2022/12/ARTISTE-yuyeung-lau.jpg%22,%22height%22:640,%22width%22:640,%22orientation%22:%22landscape%22%7D%7D%7D%7D,%7B%22pseudo%22:%22Brian%20Lundquist%22,%22description%22:%22Artiste%20contemporain%20cr%C3%A9ant%20des%20peintures%20figuratives%20classiques%22,%22ville%22:%22Roubaix%22,%22pays%22:%22%20France%22,%22photo-de-profil%22:%7B%22alt%22:%22%22,%22title%22:%22ARTISTE-brian-lundquist%22,%22caption%22:%22%22,%22description%22:%22%22,%22id%22:89,%22link%22:%22http://localhost/la_maison_des_etudiants/artiste-brian-lundquist/%22,%22url%22:%22http://localhost/la_maison_des_etudiants/wp-content/uploads/2022/12/ARTISTE-brian-lundquist.jpg%22,%22sizes%22:%7B%22thumbnail%22:%7B%22height%22:150,%22width%22:150,%22url%22:%22http://localhost/la_maison_des_etudiants/wp-content/uploads/2022/12/ARTISTE-brian-lundquist-150x150.jpg%22,%22orientation%22:%22landscape%22%7D,%22medium%22:%7B%22height%22:300,%22width%22:300,%22url%22:%22http://localhost/la_maison_des_etudiants/wp-content/uploads/2022/12/ARTISTE-brian-lundquist-300x300.jpg%22,%22orientation%22:%22landscape%22%7D,%22full%22:%7B%22url%22:%22http://localhost/la_maison_des_etudiants/wp-content/uploads/2022/12/ARTISTE-brian-lundquist.jpg%22,%22height%22:640,%22width%22:640,%22orientation%22:%22landscape%22%7D%7D%7D%7D,%7B%22pseudo%22:%22Elisabeth%20Handson%22,%22description%22:%22Artiste%20contemporain%20cr%C3%A9ant%20des%20peintures%20figuratives%20classiques%22,%22ville%22:%22Berlin%22,%22pays%22:%22Allemagne%22,%22photo-de-profil%22:%7B%22alt%22:%22%22,%22title%22:%22ARTISTE-rever-mathylde-2%22,%22caption%22:%22%22,%22description%22:%22%22,%22id%22:96,%22link%22:%22http://localhost/la_maison_des_etudiants/artiste-rever-mathylde-2/%22,%22url%22:%22http://localhost/la_maison_des_etudiants/wp-content/uploads/2022/12/ARTISTE-rever-mathylde-2.jpg%22,%22sizes%22:%7B%22thumbnail%22:%7B%22height%22:150,%22width%22:150,%22url%22:%22http://localhost/la_maison_des_etudiants/wp-content/uploads/2022/12/ARTISTE-rever-mathylde-2-150x150.jpg%22,%22orientation%22:%22landscape%22%7D,%22medium%22:%7B%22height%22:300,%22width%22:275,%22url%22:%22http://localhost/la_maison_des_etudiants/wp-content/uploads/2022/12/ARTISTE-rever-mathylde-2-275x300.jpg%22,%22orientation%22:%22portrait%22%7D,%22full%22:%7B%22url%22:%22http://localhost/la_maison_des_etudiants/wp-content/uploads/2022/12/ARTISTE-rever-mathylde-2.jpg%22,%22height%22:698,%22width%22:640,%22orientation%22:%22portrait%22%7D%7D%7D%7D,%7B%22pseudo%22:%22Tim%20Zankert%22,%22description%22:%22a%22,%22ville%22:%22Berlin%22,%22pays%22:%22%20Allemagne%22,%22photo-de-profil%22:%7B%22alt%22:%22%22,%22title%22:%22ARTISTE-tim-zankert%22,%22caption%22:%22%22,%22description%22:%22%22,%22id%22:97,%22link%22:%22http://localhost/la_maison_des_etudiants/artiste-tim-zankert/%22,%22url%22:%22http://localhost/la_maison_des_etudiants/wp-content/uploads/2022/12/ARTISTE-tim-zankert.jpg%22,%22sizes%22:%7B%22thumbnail%22:%7B%22height%22:150,%22width%22:150,%22url%22:%22http://localhost/la_maison_des_etudiants/wp-content/uploads/2022/12/ARTISTE-tim-zankert-150x150.jpg%22,%22orientation%22:%22landscape%22%7D,%22medium%22:%7B%22height%22:300,%22width%22:300,%22url%22:%22http://localhost/la_maison_des_etudiants/wp-content/uploads/2022/12/ARTISTE-tim-zankert-300x300.jpg%22,%22orientation%22:%22landscape%22%7D,%22full%22:%7B%22url%22:%22http://localhost/la_maison_des_etudiants/wp-content/uploads/2022/12/ARTISTE-tim-zankert.jpg%22,%22height%22:640,%22width%22:640,%22orientation%22:%22landscape%22%7D%7D%7D%7D,%7B%22pseudo%22:%22Christian%20Buehner%22,%22description%22:%22Artiste%20contemporain%20cr%C3%A9ant%20des%20peintures%20figuratives%20classiques%22,%22ville%22:%22Sydney%22,%22pays%22:%22%20Australie%22,%22photo-de-profil%22:%7B%22alt%22:%22%22,%22title%22:%22ARTISTE-Christian-buehner%22,%22caption%22:%22%22,%22description%22:%22%22,%22id%22:91,%22link%22:%22http://localhost/la_maison_des_etudiants/artiste-christian-buehner/%22,%22url%22:%22http://localhost/la_maison_des_etudiants/wp-content/uploads/2022/12/ARTISTE-Christian-buehner.jpg%22,%22sizes%22:%7B%22thumbnail%22:%7B%22height%22:150,%22width%22:150,%22url%22:%22http://localhost/la_maison_des_etudiants/wp-content/uploads/2022/12/ARTISTE-Christian-buehner-150x150.jpg%22,%22orientation%22:%22landscape%22%7D,%22medium%22:%7B%22height%22:300,%22width%22:300,%22url%22:%22http://localhost/la_maison_des_etudiants/wp-content/uploads/2022/12/ARTISTE-Christian-buehner-300x300.jpg%22,%22orientation%22:%22landscape%22%7D,%22full%22:%7B%22url%22:%22http://localhost/la_maison_des_etudiants/wp-content/uploads/2022/12/ARTISTE-Christian-buehner.jpg%22,%22height%22:640,%22width%22:640,%22orientation%22:%22landscape%22%7D%7D%7D%7D%5D","hyperlink":"http://localhost/la_maison_des_etudiants/artistes/","blockId":"Z1lNPPa","blockUniqueClass":"lazyblock-card-artiste-Z1lNPPa"} /-->]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
 		<wp:post_id>60</wp:post_id>
 		<wp:post_date><![CDATA[2022-12-29 00:01:34]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2022-12-28 23:01:34]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2022-12-29 14:10:27]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2022-12-29 13:10:27]]></wp:post_modified_gmt>
+		<wp:post_modified><![CDATA[2022-12-29 15:23:17]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2022-12-29 14:23:17]]></wp:post_modified_gmt>
 		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
 		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
 		<wp:post_name><![CDATA[artistes]]></wp:post_name>
@@ -2132,7 +2232,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum suscipit iac
 		<dc:creator><![CDATA[root]]></dc:creator>
 		<guid isPermaLink="false">http://localhost/la_maison_des_etudiants/?page_id=62</guid>
 		<description></description>
-		<content:encoded><![CDATA[<!-- wp:lazyblock/section-hero {"titre":"Contact","description":"Posez-nous toutes vos questions !","image-de-fond":"%7B%22alt%22:%22%22,%22title%22:%22CONTACT%22,%22caption%22:%22%22,%22description%22:%22%22,%22id%22:110,%22link%22:%22http://localhost/la_maison_des_etudiants/contact-2/%22,%22url%22:%22http://localhost/la_maison_des_etudiants/wp-content/uploads/2022/12/CONTACT.jpg%22,%22sizes%22:%7B%22thumbnail%22:%7B%22height%22:150,%22width%22:150,%22url%22:%22http://localhost/la_maison_des_etudiants/wp-content/uploads/2022/12/CONTACT-150x150.jpg%22,%22orientation%22:%22landscape%22%7D,%22medium%22:%7B%22height%22:169,%22width%22:300,%22url%22:%22http://localhost/la_maison_des_etudiants/wp-content/uploads/2022/12/CONTACT-300x169.jpg%22,%22orientation%22:%22landscape%22%7D,%22large%22:%7B%22height%22:360,%22width%22:640,%22url%22:%22http://localhost/la_maison_des_etudiants/wp-content/uploads/2022/12/CONTACT-1024x576.jpg%22,%22orientation%22:%22landscape%22%7D,%22full%22:%7B%22url%22:%22http://localhost/la_maison_des_etudiants/wp-content/uploads/2022/12/CONTACT.jpg%22,%22height%22:720,%22width%22:1280,%22orientation%22:%22landscape%22%7D%7D%7D","blockId":"Z1o143c","blockUniqueClass":"lazyblock-section-hero-Z1o143c"} /-->
+		<content:encoded><![CDATA[<!-- wp:lazyblock/section-hero {"titre":"Contact","description":"Des questions ? N'attendez plus pour nous les soumettre !","image-de-fond":"%7B%22alt%22:%22%22,%22title%22:%22CONTACT%22,%22caption%22:%22%22,%22description%22:%22%22,%22id%22:110,%22link%22:%22http://localhost/la_maison_des_etudiants/contact-2/%22,%22url%22:%22http://localhost/la_maison_des_etudiants/wp-content/uploads/2022/12/CONTACT.jpg%22,%22sizes%22:%7B%22thumbnail%22:%7B%22height%22:150,%22width%22:150,%22url%22:%22http://localhost/la_maison_des_etudiants/wp-content/uploads/2022/12/CONTACT-150x150.jpg%22,%22orientation%22:%22landscape%22%7D,%22medium%22:%7B%22height%22:169,%22width%22:300,%22url%22:%22http://localhost/la_maison_des_etudiants/wp-content/uploads/2022/12/CONTACT-300x169.jpg%22,%22orientation%22:%22landscape%22%7D,%22large%22:%7B%22height%22:360,%22width%22:640,%22url%22:%22http://localhost/la_maison_des_etudiants/wp-content/uploads/2022/12/CONTACT-1024x576.jpg%22,%22orientation%22:%22landscape%22%7D,%22full%22:%7B%22url%22:%22http://localhost/la_maison_des_etudiants/wp-content/uploads/2022/12/CONTACT.jpg%22,%22height%22:720,%22width%22:1280,%22orientation%22:%22landscape%22%7D%7D%7D","blockId":"Z1o143c","blockUniqueClass":"lazyblock-section-hero-Z1o143c"} /-->
 
 <!-- wp:lazyblock/section {"blockId":"2ci7oD","blockUniqueClass":"lazyblock-section-2ci7oD"} -->
 <!-- wp:contact-form-7/contact-form-selector {"id":6,"title":"Formulaire de contact"} -->
@@ -2143,8 +2243,8 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum suscipit iac
 		<wp:post_id>62</wp:post_id>
 		<wp:post_date><![CDATA[2022-12-29 00:02:02]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2022-12-28 23:02:02]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2022-12-29 14:14:37]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2022-12-29 13:14:37]]></wp:post_modified_gmt>
+		<wp:post_modified><![CDATA[2022-12-29 15:24:28]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2022-12-29 14:24:28]]></wp:post_modified_gmt>
 		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
 		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
 		<wp:post_name><![CDATA[contact]]></wp:post_name>
@@ -2726,13 +2826,14 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum suscipit iac
 		<dc:creator><![CDATA[root]]></dc:creator>
 		<guid isPermaLink="false">http://localhost/la_maison_des_etudiants/?post_type=wpcf7_contact_form&#038;p=6</guid>
 		<description></description>
-		<content:encoded><![CDATA[<label for="nom">Votre nom*</label> [text* nom id:nom  placeholder "John Doe"  ] 
+		<content:encoded><![CDATA[<label for="nom">Votre nom*</label> [text* your-name id:nom  placeholder "John Doe"] 
 
-<label for="email">Votre e-mail*</label> [email* email id:email  placeholder "j.doe@gmail.com"  ] 
+<label for="email">Votre e-mail*</label> [email* your-email id:email  placeholder "j.doe@gmail.com"  ] 
 
-<label data-content="*" for="sujet">Quel est le sujet de votre message ?</label> [select sujet id:sujet   ""  "renseignement"  "participation"  "autre"  ] 
+<label data-content="*" for="sujet">Quel est le sujet de votre message ?</label> [select your-sujet id:sujet   "Choissisez le sujet de votre message"  "Besoin d'un renseignement"  "Participation a la prochaine edition"  "Autre"  ] 
 
-<label for="message">Votre message*</label> [textarea* message id:message   placeholder "Bonjour, je vous contacte car ..."  ] 
+<label for="message">Votre message*</label> [textarea* your-message id:message 40x3 placeholder "Bonjour, je vous contacte car ..."  ] 
+
 [submit "Envoyer mon message"]
 1
 [_site_title] "[your-subject]"
@@ -2763,34 +2864,34 @@ Reply-To: [_site_admin_email]
 
 
 
-Thank you for your message. It has been sent.
-There was an error trying to send your message. Please try again later.
-One or more fields have an error. Please check and try again.
-There was an error trying to send your message. Please try again later.
-You must accept the terms and conditions before sending your message.
-Please fill out this field.
-This field has a too long input.
-This field has a too short input.
-There was an unknown error uploading the file.
-You are not allowed to upload files of this type.
-The uploaded file is too large.
-There was an error uploading the file.
-Please enter a date in YYYY-MM-DD format.
-This field has a too early date.
-This field has a too late date.
-Please enter a number.
-This field has a too small number.
-This field has a too large number.
-The answer to the quiz is incorrect.
-Please enter an email address.
-Please enter a URL.
-Please enter a telephone number.]]></content:encoded>
+Merci pour votre message. Il a été envoyé.
+Une erreur s’est produite lors de l’envoi de votre message. Veuillez essayer à nouveau plus tard.
+Un ou plusieurs champs contiennent une erreur. Veuillez vérifier et essayer à nouveau.
+Une erreur s’est produite lors de l’envoi de votre message. Veuillez essayer à nouveau plus tard.
+Vous devez accepter les termes et conditions avant d’envoyer votre message.
+Veuillez renseigner ce champ.
+Ce champ à une date trop tardive.
+Ce champ à un numéro trop court.
+Une erreur inconnue s’est produite lors du téléversement du fichier.
+Vous n’avez pas les droits nécessaires pour téléverser ce type de fichier.
+Le fichier téléversé est trop volumineux.
+Une erreur s’est produite lors du téléversement du fichier.
+SVP, entrez une date au format AAAA-MM-JJ
+Ce champ à une date trop tôt.
+Ce champ à une date trop tardive.
+Veuillez saisir un numéro.
+Ce champ à un numéro trop court.
+Ce champ a un numéro trop long.
+La réponse à la question est incorrecte.
+Veuillez saisir votre adresse e-mail.
+Veuillez saisisr une URL
+Veuillez saisir un numéro de téléphone.]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
 		<wp:post_id>6</wp:post_id>
 		<wp:post_date><![CDATA[2022-12-28 23:49:44]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2022-12-28 22:49:44]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2022-12-29 01:25:36]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2022-12-29 00:25:36]]></wp:post_modified_gmt>
+		<wp:post_modified><![CDATA[2022-12-29 15:41:04]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2022-12-29 14:41:04]]></wp:post_modified_gmt>
 		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
 		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
 		<wp:post_name><![CDATA[contact-form-1]]></wp:post_name>
@@ -2802,13 +2903,14 @@ Please enter a telephone number.]]></content:encoded>
 		<wp:is_sticky>0</wp:is_sticky>
 														<wp:postmeta>
 		<wp:meta_key><![CDATA[_form]]></wp:meta_key>
-		<wp:meta_value><![CDATA[<label for="nom">Votre nom*</label> [text* nom id:nom  placeholder "John Doe"  ] 
+		<wp:meta_value><![CDATA[<label for="nom">Votre nom*</label> [text* your-name id:nom  placeholder "John Doe"] 
 
-<label for="email">Votre e-mail*</label> [email* email id:email  placeholder "j.doe@gmail.com"  ] 
+<label for="email">Votre e-mail*</label> [email* your-email id:email  placeholder "j.doe@gmail.com"  ] 
 
-<label data-content="*" for="sujet">Quel est le sujet de votre message ?</label> [select sujet id:sujet   ""  "renseignement"  "participation"  "autre"  ] 
+<label data-content="*" for="sujet">Quel est le sujet de votre message ?</label> [select your-sujet id:sujet   "Choissisez le sujet de votre message"  "Besoin d'un renseignement"  "Participation a la prochaine edition"  "Autre"  ] 
 
-<label for="message">Votre message*</label> [textarea* message id:message   placeholder "Bonjour, je vous contacte car ..."  ] 
+<label for="message">Votre message*</label> [textarea* your-message id:message 40x3 placeholder "Bonjour, je vous contacte car ..."  ] 
+
 [submit "Envoyer mon message"]]]></wp:meta_value>
 		</wp:postmeta>
 							<wp:postmeta>
@@ -2832,7 +2934,7 @@ This e-mail was sent from a contact form on [_site_title] ([_site_url])";s:18:"a
 		</wp:postmeta>
 							<wp:postmeta>
 		<wp:meta_key><![CDATA[_messages]]></wp:meta_key>
-		<wp:meta_value><![CDATA[a:22:{s:12:"mail_sent_ok";s:45:"Thank you for your message. It has been sent.";s:12:"mail_sent_ng";s:71:"There was an error trying to send your message. Please try again later.";s:16:"validation_error";s:61:"One or more fields have an error. Please check and try again.";s:4:"spam";s:71:"There was an error trying to send your message. Please try again later.";s:12:"accept_terms";s:69:"You must accept the terms and conditions before sending your message.";s:16:"invalid_required";s:27:"Please fill out this field.";s:16:"invalid_too_long";s:32:"This field has a too long input.";s:17:"invalid_too_short";s:33:"This field has a too short input.";s:13:"upload_failed";s:46:"There was an unknown error uploading the file.";s:24:"upload_file_type_invalid";s:49:"You are not allowed to upload files of this type.";s:21:"upload_file_too_large";s:31:"The uploaded file is too large.";s:23:"upload_failed_php_error";s:38:"There was an error uploading the file.";s:12:"invalid_date";s:41:"Please enter a date in YYYY-MM-DD format.";s:14:"date_too_early";s:32:"This field has a too early date.";s:13:"date_too_late";s:31:"This field has a too late date.";s:14:"invalid_number";s:22:"Please enter a number.";s:16:"number_too_small";s:34:"This field has a too small number.";s:16:"number_too_large";s:34:"This field has a too large number.";s:23:"quiz_answer_not_correct";s:36:"The answer to the quiz is incorrect.";s:13:"invalid_email";s:30:"Please enter an email address.";s:11:"invalid_url";s:19:"Please enter a URL.";s:11:"invalid_tel";s:32:"Please enter a telephone number.";}]]></wp:meta_value>
+		<wp:meta_value><![CDATA[a:22:{s:12:"mail_sent_ok";s:45:"Merci pour votre message. Il a été envoyé.";s:12:"mail_sent_ng";s:102:"Une erreur s’est produite lors de l’envoi de votre message. Veuillez essayer à nouveau plus tard.";s:16:"validation_error";s:88:"Un ou plusieurs champs contiennent une erreur. Veuillez vérifier et essayer à nouveau.";s:4:"spam";s:102:"Une erreur s’est produite lors de l’envoi de votre message. Veuillez essayer à nouveau plus tard.";s:12:"accept_terms";s:77:"Vous devez accepter les termes et conditions avant d’envoyer votre message.";s:16:"invalid_required";s:29:"Veuillez renseigner ce champ.";s:16:"invalid_too_long";s:34:"Ce champ à une date trop tardive.";s:17:"invalid_too_short";s:34:"Ce champ à un numéro trop court.";s:13:"upload_failed";s:72:"Une erreur inconnue s’est produite lors du téléversement du fichier.";s:24:"upload_file_type_invalid";s:79:"Vous n’avez pas les droits nécessaires pour téléverser ce type de fichier.";s:21:"upload_file_too_large";s:44:"Le fichier téléversé est trop volumineux.";s:23:"upload_failed_php_error";s:63:"Une erreur s’est produite lors du téléversement du fichier.";s:12:"invalid_date";s:41:"SVP, entrez une date au format AAAA-MM-JJ";s:14:"date_too_early";s:31:"Ce champ à une date trop tôt.";s:13:"date_too_late";s:34:"Ce champ à une date trop tardive.";s:14:"invalid_number";s:27:"Veuillez saisir un numéro.";s:16:"number_too_small";s:34:"Ce champ à un numéro trop court.";s:16:"number_too_large";s:32:"Ce champ a un numéro trop long.";s:23:"quiz_answer_not_correct";s:42:"La réponse à la question est incorrecte.";s:13:"invalid_email";s:37:"Veuillez saisir votre adresse e-mail.";s:11:"invalid_url";s:24:"Veuillez saisisr une URL";s:11:"invalid_tel";s:42:"Veuillez saisir un numéro de téléphone.";}]]></wp:meta_value>
 		</wp:postmeta>
 							<wp:postmeta>
 		<wp:meta_key><![CDATA[_additional_settings]]></wp:meta_key>
@@ -2841,10 +2943,6 @@ This e-mail was sent from a contact form on [_site_title] ([_site_url])";s:18:"a
 							<wp:postmeta>
 		<wp:meta_key><![CDATA[_locale]]></wp:meta_key>
 		<wp:meta_value><![CDATA[fr_FR]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_config_errors]]></wp:meta_key>
-		<wp:meta_value><![CDATA[a:1:{s:23:"mail.additional_headers";a:1:{i:0;a:2:{s:4:"code";i:102;s:4:"args";a:3:{s:7:"message";s:51:"Invalid mailbox syntax is used in the %name% field.";s:6:"params";a:1:{s:4:"name";s:8:"Reply-To";}s:4:"link";s:68:"https://contactform7.com/configuration-errors/invalid-mailbox-syntax";}}}}]]></wp:meta_value>
 		</wp:postmeta>
 							</item>
 					<item>
@@ -2904,13 +3002,13 @@ This e-mail was sent from a contact form on [_site_title] ([_site_url])";s:18:"a
 		<dc:creator><![CDATA[root]]></dc:creator>
 		<guid isPermaLink="false">http://localhost/la_maison_des_etudiants/?page_id=64</guid>
 		<description></description>
-		<content:encoded><![CDATA[<!-- wp:lazyblock/section-hero {"titre":"Exposition","description":"Le désordre","image-de-fond":"%7B%22alt%22:%22%22,%22title%22:%22EXPOSITION-oeuvre1%22,%22caption%22:%22%22,%22description%22:%22%22,%22id%22:112,%22link%22:%22http://localhost/la_maison_des_etudiants/exposition-oeuvre1/%22,%22url%22:%22http://localhost/la_maison_des_etudiants/wp-content/uploads/2022/12/EXPOSITION-oeuvre1-scaled.jpg%22,%22sizes%22:%7B%22thumbnail%22:%7B%22height%22:150,%22width%22:150,%22url%22:%22http://localhost/la_maison_des_etudiants/wp-content/uploads/2022/12/EXPOSITION-oeuvre1-150x150.jpg%22,%22orientation%22:%22landscape%22%7D,%22medium%22:%7B%22height%22:200,%22width%22:300,%22url%22:%22http://localhost/la_maison_des_etudiants/wp-content/uploads/2022/12/EXPOSITION-oeuvre1-300x200.jpg%22,%22orientation%22:%22landscape%22%7D,%22large%22:%7B%22height%22:427,%22width%22:640,%22url%22:%22http://localhost/la_maison_des_etudiants/wp-content/uploads/2022/12/EXPOSITION-oeuvre1-1024x683.jpg%22,%22orientation%22:%22landscape%22%7D,%22full%22:%7B%22url%22:%22http://localhost/la_maison_des_etudiants/wp-content/uploads/2022/12/EXPOSITION-oeuvre1-scaled.jpg%22,%22height%22:1707,%22width%22:2560,%22orientation%22:%22landscape%22%7D%7D%7D","blockId":"ZJVRka","blockUniqueClass":"lazyblock-section-hero-ZJVRka"} /-->]]></content:encoded>
+		<content:encoded><![CDATA[<!-- wp:lazyblock/section-hero {"titre":"Exposition","description":"Découvrez, le Désordre, notre nouvelle exposition pour l'année 2023-2024","image-de-fond":"%7B%22alt%22:%22%22,%22title%22:%22EXPOSITION-oeuvre1%22,%22caption%22:%22%22,%22description%22:%22%22,%22id%22:112,%22link%22:%22http://localhost/la_maison_des_etudiants/exposition-oeuvre1/%22,%22url%22:%22http://localhost/la_maison_des_etudiants/wp-content/uploads/2022/12/EXPOSITION-oeuvre1-scaled.jpg%22,%22sizes%22:%7B%22thumbnail%22:%7B%22height%22:150,%22width%22:150,%22url%22:%22http://localhost/la_maison_des_etudiants/wp-content/uploads/2022/12/EXPOSITION-oeuvre1-150x150.jpg%22,%22orientation%22:%22landscape%22%7D,%22medium%22:%7B%22height%22:200,%22width%22:300,%22url%22:%22http://localhost/la_maison_des_etudiants/wp-content/uploads/2022/12/EXPOSITION-oeuvre1-300x200.jpg%22,%22orientation%22:%22landscape%22%7D,%22large%22:%7B%22height%22:427,%22width%22:640,%22url%22:%22http://localhost/la_maison_des_etudiants/wp-content/uploads/2022/12/EXPOSITION-oeuvre1-1024x683.jpg%22,%22orientation%22:%22landscape%22%7D,%22full%22:%7B%22url%22:%22http://localhost/la_maison_des_etudiants/wp-content/uploads/2022/12/EXPOSITION-oeuvre1-scaled.jpg%22,%22height%22:1707,%22width%22:2560,%22orientation%22:%22landscape%22%7D%7D%7D","blockId":"ZJVRka","blockUniqueClass":"lazyblock-section-hero-ZJVRka"} /-->]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
 		<wp:post_id>64</wp:post_id>
 		<wp:post_date><![CDATA[2022-12-29 00:02:12]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2022-12-28 23:02:12]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2022-12-29 14:30:47]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2022-12-29 13:30:47]]></wp:post_modified_gmt>
+		<wp:post_modified><![CDATA[2022-12-29 15:21:19]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2022-12-29 14:21:19]]></wp:post_modified_gmt>
 		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
 		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
 		<wp:post_name><![CDATA[exposition]]></wp:post_name>
