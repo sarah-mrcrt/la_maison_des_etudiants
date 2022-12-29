@@ -765,7 +765,7 @@ footer div.flex {
             text-decoration: none; }
     footer div.flex article.col-7 a:hover {
       letter-spacing: 0; }
-footer .site-information {
+footer .site-info {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -786,9 +786,9 @@ footer .site-information {
   padding-top: 13rem;
   margin-top: -10rem;
   clip-path: polygon(0 19%, 100% 9%, 100% 100%, 0% 100%); }
-  footer .site-information li {
+  footer .site-info li {
     margin-bottom: 1rem; }
-    footer .site-information li a {
+    footer .site-info li a {
       color: #F3EFE3;
       text-decoration-color: #F3EFE3; }
 @media (max-width: 992px) {
@@ -810,9 +810,6 @@ footer .site-information {
           width: 100%; }
     footer article:nth-of-type(2) a {
       font-size: .8rem; } }
-
-body {
-  background-color: red; }
 
 /*-------------------------------------------------------------
 # Utilities
