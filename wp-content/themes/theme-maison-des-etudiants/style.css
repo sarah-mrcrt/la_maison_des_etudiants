@@ -864,18 +864,27 @@ footer .site-info {
   grid-template-columns: repeat(2, 1fr);
   row-gap: 10px; }
   .artistes div.grid-gallery article {
+    position: relative;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
     -ms-flex-direction: column;
-    flex-direction: column; }
-    .artistes div.grid-gallery article:nth-child(odd) {
-      border-right: solid 2px black; }
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center; }
     .artistes div.grid-gallery article hr {
       width: 97%;
-      justify-items: end; }
+      justify-items: end;
+      position: absolute;
+      bottom: 0;
+      right: 0; }
+    .artistes div.grid-gallery article:nth-child(odd) {
+      border-right: solid 2px #000000; }
+      .artistes div.grid-gallery article:nth-child(odd) hr {
+        left: 0; }
     .artistes div.grid-gallery article figure {
       display: -ms-flexbox;
       display: flex;
@@ -889,11 +898,11 @@ footer .site-info {
         width: 200px;
         height: 200px; }
       .artistes div.grid-gallery article figure figcaption {
+        padding: 1rem 0;
         margin-right: 1rem; }
         .artistes div.grid-gallery article figure figcaption p.description {
           color: #8C8C8C;
-          margin-bottom: 1rem;
-          background-color: red; }
+          margin-bottom: 1rem; }
         .artistes div.grid-gallery article figure figcaption span.place {
           font-size: 1rem; }
 @media (max-width: 1024px) {
@@ -902,22 +911,24 @@ footer .site-info {
 @media (max-width: 992px) {
   .artistes div.grid-gallery {
     grid-template-columns: repeat(1, 1fr); }
+    .artistes div.grid-gallery hr {
+      left: 0; }
     .artistes div.grid-gallery article:nth-child(odd) {
-      border-right: inherit; }
-    .artistes div.grid-gallery article figure img {
-      width: 400px; } }
+      border-right: inherit; } }
 @media (max-width: 768px) {
   .artistes div.grid-gallery article figure img {
     width: 200px; } }
 @media (max-width: 630px) {
-  .artistes div article hr {
+  .artistes div.grid-gallery article hr {
     display: none; }
-  .artistes div article figure {
+  .artistes div.grid-gallery article figure {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
     -ms-flex-direction: column;
     flex-direction: column;
-    text-align: center; } }
+    text-align: center; }
+    .artistes div.grid-gallery article figure figcaption {
+      padding: 0; } }
 
 .accordion article {
   margin-bottom: 1rem; }
