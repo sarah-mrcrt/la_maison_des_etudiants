@@ -1199,6 +1199,7 @@ section.expo-text {
         section.expo-text p.titre,
         section.expo-text .col-5.titre,
         section.expo-text .col-7.titre {
+          font-size: 1.5rem;
           margin-bottom: 1rem; } }
   @media (max-width: 630px) {
     section.expo-text {

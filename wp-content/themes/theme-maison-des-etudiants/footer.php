@@ -19,15 +19,15 @@
 							<h3>Suivez-nous</h3>
 							<div>
 								<ul>
-									<li><a href="" aria-label="Behance" rel="noopener" target="_blank">Facebook</a></li>
-									<li><a href="" aria-label="Instagram" rel="noopener nofollow"
+									<li><a href="#" aria-label="Behance" rel="noopener" target="_blank">Facebook</a></li>
+									<li><a href="#" aria-label="Instagram" rel="noopener nofollow"
 											target="_blank">Instagram</a>
 									<li><a href="" aria-label="Twitter" rel="noopener" target="_blank">Twitter</a></li>
 								</ul>
 								<ul>
-									<li><a href="" aria-label="Linkedin" rel="noopener" target="_blank">Linkedin</a>
+									<li><a href="#" aria-label="Linkedin" rel="noopener" target="_blank">Linkedin</a>
 									</li>
-									<li><a href="" aria-label="Vimeo" rel="noopener" target="_blank">Vimeo</a></li>
+									<li><a href="#" aria-label="Vimeo" rel="noopener" target="_blank">Vimeo</a></li>
 								</ul>
 							</div>
 						</article>

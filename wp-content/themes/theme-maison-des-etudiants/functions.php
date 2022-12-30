@@ -178,10 +178,9 @@ if ( defined( 'JETPACK__VERSION' ) ) {
 }
 
 // ************************************** AJOUT
-// Afficher dans le menu la page courante
 // Best pratice : Fixation de l'erreur "Does not use HTTPS"
 define('FORCE_SSL_ADMIN', true);
-
+// Afficher dans le menu la page courante
 add_filter('nav_menu_css_class' , 'special_nav_class' , 10 , 2);
 
 function special_nav_class ($classes, $item) {
