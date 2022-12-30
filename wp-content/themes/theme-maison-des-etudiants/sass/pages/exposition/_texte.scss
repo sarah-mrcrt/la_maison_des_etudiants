@@ -1,0 +1,44 @@
+section.expo-text {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    gap: 20px;
+
+    p.titre {
+        font-size: 3rem;
+    }
+
+    //-------------------------
+    // Responsive
+    //-------------------------
+    @include responsive("lg-desktop") {
+        p.titre {
+            font-size: 2rem;
+        }
+
+        .col-5 {
+            width: 70%;
+        }
+    }
+
+    @include responsive("md-desktop") {
+        display: block;
+
+        p,
+        .col-5,
+        .col-7 {
+            width: 100%;
+
+            &.titre {
+                margin-bottom: 1rem;
+            }
+        }
+    }
+
+    @include responsive("sm-phone") {
+        text-align: center;
+    }
+}

@@ -190,8 +190,3 @@ function special_nav_class ($classes, $item) {
   }
   return $classes;
 }
-
-function my_theme_scripts() {
-    wp_enqueue_script( 'jquery', get_template_directory_uri() . '/js/jquery.js', array( 'jquery' ), '1.0.0', true );
-}
-add_action( 'wp_enqueue_scripts', 'my_theme_scripts' );
