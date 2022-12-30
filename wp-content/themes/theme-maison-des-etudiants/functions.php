@@ -177,7 +177,11 @@ if ( defined( 'JETPACK__VERSION' ) ) {
 	require get_template_directory() . '/inc/jetpack.php';
 }
 
+// ************************************** AJOUT
 // Afficher dans le menu la page courante
+// Best pratice : Fixation de l'erreur "Does not use HTTPS"
+define('FORCE_SSL_ADMIN', true);
+
 add_filter('nav_menu_css_class' , 'special_nav_class' , 10 , 2);
 
 function special_nav_class ($classes, $item) {
@@ -186,3 +190,8 @@ function special_nav_class ($classes, $item) {
   }
   return $classes;
 }
+
+function my_theme_scripts() {
+    wp_enqueue_script( 'jquery', get_template_directory_uri() . '/js/jquery.js', array( 'jquery' ), '1.0.0', true );
+}
+add_action( 'wp_enqueue_scripts', 'my_theme_scripts' );

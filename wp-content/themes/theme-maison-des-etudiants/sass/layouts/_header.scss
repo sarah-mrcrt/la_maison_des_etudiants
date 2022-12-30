@@ -1,10 +1,12 @@
-/*************** Menu ordinateur ***************/
+// https://codepen.io/alvarotrigo/pen/MWEJEWG
 
-header.site-header {
+header.top-nav {
     // Fixed
     position: fixed;
     z-index: 10;
     top: 2%;
+    // Font
+    text-align: center;
     // Centrer
     left: 50%;
     transform: translateX(-50%);
@@ -24,28 +26,31 @@ header.site-header {
     -ms-flex-pack: justify;
     justify-content: space-between;
 
-    h1 {
+    span {
         // Font
+        text-align: left;
         font-size: 1rem;
+        font-weight: $font-weight-black;
         // Taille box
         width: 20%;
-        // Marges
-        //  margin-right: 3rem;
         // Couleurs
         color: $white;
-        // background-color: red;
         border-right: 6px solid $white;
+        color: $white;
 
-        a {
-            color: $white;
+        @include responsive("md-desktop") {
+            width: 100%;
+            border: none;
+            font-size: 3.3vw;
+        }
+
+        @include responsive("sm-phone") {
+            font-size: .8rem;
         }
     }
 
     nav {
         width: 90%;
-    }
-
-    nav {
 
         ul {
             // Flex
@@ -70,26 +75,128 @@ header.site-header {
                 -webkit-text-decoration-line: underline;
                 text-decoration-line: underline;
             }
+
+            //-------------------------
+            // Responsive
+            //-------------------------
+            @include responsive("md-desktop") {
+                margin-left: 0;
+            }
         }
+
+        @include responsive("md-desktop") {
+            width: 0;
+        }
+    }
+
+    //-------------------------
+    // Responsive
+    //-------------------------
+    @include responsive("sm-phone") {
+        padding: 1rem 1rem;
     }
 }
 
-/*************** Menu burger ***************/
-header button {
-    color: $white;
-    border: none;
-    background-color: transparent;
+#menu>li {
+    margin: 0;
+    overflow: hidden;
 }
 
-#open,
-#close {
+.menu-button-container {
     display: none;
-    font-size: 2em;
-    margin: 0 2rem;
-    height: 30px;
+    height: 100%;
     width: 30px;
+    cursor: pointer;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
-header nav.open {
-    transform: translateY(0);
+#menu-toggle {
+    display: none;
+}
+
+.menu-button {
+    right: 3rem;
+}
+
+.menu-button,
+.menu-button::before,
+.menu-button::after {
+    display: block;
+    background-color: $white;
+    position: absolute;
+    height: 4px;
+    width: 30px;
+    transition: transform 400ms cubic-bezier(0.23, 1, 0.32, 1);
+    border-radius: 2px;
+}
+
+.menu-button::before {
+    content: '';
+    margin-top: -8px;
+}
+
+.menu-button::after {
+    content: '';
+    margin-top: 8px;
+}
+
+#menu-toggle:checked+.menu-button-container .menu-button::before {
+    margin-top: 0px;
+    transform: rotate(405deg);
+}
+
+#menu-toggle:checked+.menu-button-container .menu-button {
+    background: rgba(255, 255, 255, 0);
+}
+
+#menu-toggle:checked+.menu-button-container .menu-button::after {
+    margin-top: 0px;
+    transform: rotate(-405deg);
+}
+
+@include responsive("md-desktop") {
+    .menu-button-container {
+        display: flex;
+    }
+
+    .menu {
+        position: absolute;
+        top: 1px;
+        margin-top: 37px;
+        left: 0;
+        flex-direction: column;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #menu-toggle~.menu li {
+        height: 0;
+        margin: 0;
+        padding: 0;
+        border: 0;
+        transition: height 400ms cubic-bezier(0.23, 1, 0.32, 1);
+    }
+
+    #menu-toggle:checked~.menu li {
+        height: 2.5em;
+        padding: 0.5em;
+        transition: height 400ms cubic-bezier(0.23, 1, 0.32, 1);
+    }
+
+    .menu>li {
+        display: flex;
+        justify-content: center;
+        margin: 0;
+        padding: 0.5em 0;
+        width: 100%;
+        color: $white;
+        background-color: $black;
+    }
+
+    .menu>li:not(:last-child) {
+        border-bottom: 1px solid #444;
+    }
 }

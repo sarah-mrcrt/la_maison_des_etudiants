@@ -25,7 +25,7 @@
 <div id="page" class="site">
 	<a class="skip-link screen-reader-text" href="#primary"><?php esc_html_e( 'Skip to content', 'theme-maison-des-etudiants' ); ?></a>
 
-	<header id="masthead" class="site-header">
+	<header id="masthead" class="top-nav">
 		<div class="site-branding">
 			<?php
 			the_custom_logo();
@@ -45,17 +45,24 @@
 			<?php endif; ?>
 		</div><!-- .site-branding -->
 
-		<?php echo get_bloginfo( 'name' ); ?>
-		<nav id="site-navigation" class="main-navigation">
-			<!-- <button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php esc_html_e( 'Primary Menu', 'theme-maison-des-etudiants' ); ?></button> -->
+		
+		<span><?php echo get_bloginfo( 'name' ); ?></span>
+	<nav>
+		<input id="menu-toggle" type="checkbox" />
+		<label class='menu-button-container' for="menu-toggle">
+			<div class='menu-button'></div>
+		</label>
+		<ul class="menu">
 			<?php
-			wp_nav_menu(
-				array(
-					'theme_location' => 'menu-1',
-					'menu_id'        => 'primary-menu',
-				)
-			);
+				wp_nav_menu(
+					array(
+						'theme_location' => 'menu-1',
+						'menu_id'        => 'primary-menu',
+					)
+				);
 			?>
-		</nav><!-- #site-navigation -->
-	</header><!-- #masthead -->
+		</ul>
+	</nav>
+</header><!-- #masthead -->
 
+	
