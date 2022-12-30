@@ -58,5 +58,15 @@ section.expo-ancienne {
 
     @include responsive("sm-phone") {
         text-align: center;
+
+        div {
+            article {
+                a {
+                    -ms-flex-item-align: center;
+                    -ms-grid-row-align: center;
+                    align-self: center;
+                }
+            }
+        }
     }
 }

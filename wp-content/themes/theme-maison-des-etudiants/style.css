@@ -908,6 +908,9 @@ footer .site-info {
           width: 100%; }
     footer article:nth-of-type(2) a {
       font-size: .8rem; } }
+@media (max-width: 630px) {
+  footer {
+    text-align: center; } }
 
 /*-------------------------------------------------------------
 # Utilities
@@ -1210,7 +1213,7 @@ section.expo-text {
   grid-template-areas: "image1 image2 ." "image1 image4 ." "image3 image3 ."; }
   #infos_pratiques .grid figure {
     overflow: hidden;
-    border: solid 1rem black; }
+    border: solid 1rem #000000; }
     #infos_pratiques .grid figure img {
       position: relative;
       /* Adapter les images aux grilles */
@@ -1219,6 +1222,9 @@ section.expo-text {
       /* Images centré dans les grilles */
       top: 50%;
       transform: translateY(-50%); }
+    @media (max-width: 630px) {
+      #infos_pratiques .grid figure {
+        border: solid 0.2rem #000000; } }
 
 #image1 {
   grid-area: image1; }
@@ -1269,6 +1275,10 @@ section.expo-ancienne div {
     grid-template-columns: repeat(1, 1fr); } }
 @media (max-width: 630px) {
   section.expo-ancienne {
-    text-align: center; } }
+    text-align: center; }
+    section.expo-ancienne div article a {
+      -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center; } }
 
 /*# sourceMappingURL=style.css.map */

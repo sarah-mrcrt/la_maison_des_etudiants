@@ -9,7 +9,7 @@
 
         figure {
             overflow: hidden;
-            border: solid 1rem black;
+            border: solid 1rem $black;
 
             img {
                 position: relative;
@@ -19,6 +19,13 @@
                 /* Images centré dans les grilles */
                 top: 50%;
                 transform: translateY(-50%);
+            }
+
+            //-------------------------
+            // Responsive
+            //-------------------------
+            @include responsive("sm-phone") {
+                border: solid .2rem $black;
             }
         }
     }
